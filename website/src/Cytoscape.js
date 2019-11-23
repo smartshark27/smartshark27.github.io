@@ -37,6 +37,10 @@ function getCytoscapeElement(nodes, edges) {
     },
     layout: {
       name: "concentric"
+    },
+    pan: {
+      x: window.innerWidth / 2,
+      y: window.innerHeight / 2
     }
   });
 }
