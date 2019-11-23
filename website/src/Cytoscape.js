@@ -15,8 +15,8 @@ function getCytoscapeElement(nodes, edges) {
       .css({
         height: 60,
         width: 60,
-        "background-color": (node) => {
-          if (node.data("type") === "Technology") {
+        "background-color": (elem) => {
+          if (elem.data("type") === "Technology") {
             return "rgb(255, 81, 0)"
           }
           else {
