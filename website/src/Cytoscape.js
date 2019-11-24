@@ -25,9 +25,11 @@ function getCytoscapeElement(nodes, edges) {
         },
         "background-opacity": 0.8,
         color: "white",
+        //"font-size": (elem) => container.zoom / 10,
         "background-fit": "cover",
         "border-width": 0,
         content: "data(name)",
+        "text-halign": "center",
         "text-valign": "center",
         label: "data(name)"
       })
