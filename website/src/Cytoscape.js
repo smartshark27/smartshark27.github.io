@@ -19,7 +19,7 @@ function getCytoscapeElement(nodes, edges) {
           if (elem.data("type") === "Technology") {
             return "rgb(255, 81, 0)"
           }
-          else {
+          else { // Project
             return "rgb(81, 255, 0)"
           }
         },
@@ -45,7 +45,8 @@ function getCytoscapeElement(nodes, edges) {
       edges: edges
     },
     layout: {
-      name: "concentric"
+      name: "concentric",
+      fit: true,
     },
     pan: {
       x: window.innerWidth / 2,
