@@ -4,10 +4,10 @@ import D3Graph from "./components/Graph";
 
 const technologyNodes = require("./data/technology.json");
 const projectNodes = require("./data/project.json");
-const technologyTechnologyEdges = require("./data/technology-technology.json");
-const projectTechnologyEdges = require("./data/project-technology.json");
+const technologyTechnologyLinks = require("./data/technology-technology.json");
+const projectTechnologyLinks = require("./data/project-technology.json");
 const allNodes = technologyNodes.concat(projectNodes);
-const allLinks = technologyTechnologyEdges.concat(projectTechnologyEdges);
+const allLinks = technologyTechnologyLinks.concat(projectTechnologyLinks);
 
 export default class App extends React.Component {
   constructor(props) {
@@ -22,35 +22,39 @@ export default class App extends React.Component {
       selectedNode: null
     };
     this.updateWindowDimensions = this.updateWindowDimensions.bind(this);
-    // this.updateNodesAndEdges = this.updateNodesAndEdges.bind(this);
-    // this.handleNodeClick = this.handleNodeClick.bind(this);
-    // this.handleHomeButtonClick = this.handleHomeButtonClick.bind(this);
+    this.updateNodesAndLinks = this.updateNodesAndLinks.bind(this);
+    this.handleNodeClick = this.handleNodeClick.bind(this);
+    this.handleHomeButtonClick = this.handleHomeButtonClick.bind(this);
+    this.fg = React.createRef()
   }
 
-  // handleNodeClick(e) {
-  //   const selectedNode = e.target;
-  //   const edges = allEdges.filter(edge => {
-  //     return edge.data.source === e.target.data('id') || edge.data.target === e.target.data('id')
-  //   })
-  //   const nodes = allNodes.filter(node => {
-  //     return node.data.id === e.target.data('id') || edges.reduce((isIn, curr) => {
-  //       return isIn || node.data.id === curr.data.source || node.data.id === curr.data.target;
-  //     }, false);
-  //   })
-  //   this.updateNodesAndEdges(selectedNode, nodes, edges);
-  // }
+  handleNodeClick(selectedNode) {
+    const links = allLinks.filter(link => {
+      return link.source.id === selectedNode.id || link.target.id === selectedNode.id
+    })
+    const nodes = allNodes.filter(node => {
+      return node.id === selectedNode.id || links.reduce((isIn, curr) => {
+        return isIn || node.id === curr.source.id || node.id === curr.target.id;
+      }, false);
+    })
+    this.updateNodesAndLinks(selectedNode, nodes, links);
+    this.fg.current.centerAt(selectedNode.x, selectedNode.y, 1000)
+    this.fg.current.zoom(2, 1000)
+  }
 
-  // handleHomeButtonClick() {
-  //   this.updateNodesAndEdges(null, allNodes, allEdges);
-  // }
+  handleHomeButtonClick() {
+    this.updateNodesAndLinks(null, allNodes, allLinks);
+    this.fg.current.centerAt(0, 0, 1000)
+    this.fg.current.zoom(1, 1000)
+  }
 
-  // updateNodesAndEdges(selectedNode, nodes, edges) {
-  //   const state = this.state;
-  //   state.selectedNode = selectedNode;
-  //   state.nodes = nodes;
-  //   state.edges = edges;
-  //   this.setState(state);
-  // }
+  updateNodesAndLinks(selectedNode, nodes, links) {
+    const state = this.state;
+    state.selectedNode = selectedNode;
+    state.data.nodes = nodes;
+    state.data.links = links;
+    this.setState(state);
+  }
 
   updateWindowDimensions() {
     const state = this.state;
@@ -72,7 +76,14 @@ export default class App extends React.Component {
     return (
       <div>
         <HomeButton handleClick={this.handleHomeButtonClick} />
-        <D3Graph data={this.state.data} width={this.state.windowWidth} height={this.state.windowHeight} />
+        <D3Graph
+          fg={this.fg}
+          selectedNode={this.state.selectedNode}
+          data={this.state.data}
+          width={this.state.windowWidth}
+          height={this.state.windowHeight}
+          handleNodeClick={this.handleNodeClick}
+        />
       </div>
     );
   }

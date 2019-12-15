@@ -7,7 +7,7 @@ const homeButtonStyle = {
     zIndex: 100,
     top: 10,
     left: 10,
-    color: 'white',
+    color: 'black',
 }
 
 export default function HomeButton(props) {
