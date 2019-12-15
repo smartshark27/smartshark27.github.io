@@ -14,8 +14,20 @@ const nodeAppearance = {
 }
 
 function nodeSize(node) {
-    if (node.skillLevel != null) return node.skillLevel
-    else return 3
+    if (node.skillLevel != null)
+        return node.skillLevel
+    else
+        return 3
+}
+
+function renderLabel(node, ctx, globalScale) {
+    if (globalScale < 1.5) return;
+    const fontSize = 15 / globalScale;
+    ctx.font = `${fontSize}px "arial`;
+    ctx.textAlign = "center";
+    ctx.textBaseline = "middle";
+    ctx.fillStyle = 'black';
+    ctx.fillText(node.name, node.x, node.y + 10)
 }
 
 export default function Graph(props) {
@@ -26,6 +38,8 @@ export default function Graph(props) {
             onNodeClick={props.handleNodeClick}
             nodeColor={(node) => nodeAppearance[node.type].color}
             nodeVal={nodeSize}
+            nodeCanvasObject={renderLabel}
+            nodeCanvasObjectMode={() => "after"}
         />
     )
 }
