@@ -215,5 +215,12 @@
         "name": "Word Graph",
         "description": "",
         "year": 2017
+    },
+    {
+        "id": "p032",
+        "type": "Project",
+        "name": "Payments Digital Banking Service",
+        "description": "",
+        "year": 2019
     }
 ]

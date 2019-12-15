@@ -39,7 +39,7 @@ export default class App extends React.Component {
     })
     this.updateNodesAndLinks(selectedNode, nodes, links);
     this.fg.current.centerAt(selectedNode.x, selectedNode.y, 1000)
-    this.fg.current.zoom(2, 1000)
+    this.fg.current.zoom(3, 1000)
   }
 
   handleHomeButtonClick() {

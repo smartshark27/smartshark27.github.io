@@ -614,5 +614,33 @@
         "name": "Yarn",
         "description": "Package manager",
         "skillLevel": 0
+    },
+    {
+        "id": "t089",
+        "type": "Technology",
+        "name": "PostgreSQL",
+        "description": "Relational database management system",
+        "skillLevel": 2
+    },
+    {
+        "id": "t090",
+        "type": "Technology",
+        "name": "Cloud Spanner",
+        "description": "Scalable distributed cloud database service",
+        "skillLevel": 1
+    },
+    {
+        "id": "t091",
+        "type": "Technology",
+        "name": "Cloud Build",
+        "description": "Build executor for Google Cloud infrastructure",
+        "skillLevel": 1
+    },
+    {
+        "id": "t092",
+        "type": "Technology",
+        "name": "Cloud SQL",
+        "description": "Cloud database managedment service",
+        "skillLevel": 1
     }
 ]
