@@ -1,283 +1,226 @@
-{
-    "nodes": [
-        {
-            "data": {
-                "id": "p001",
-                "type": "Project",
-                "name": "3d Earth with Satellites",
-                "description": "",
-                "year": 2018
-            }
-        },
-        {
-            "data": {
-                "id": "p002",
-                "type": "Project",
-                "name": "ASX Data Pipeline",
-                "description": "",
-                "year": 2019
-            }
-        },
-        {
-            "data": {
-                "id": "p003",
-                "type": "Project",
-                "name": "Backbase Integration Testing",
-                "description": "",
-                "year": 2019
-            }
-        },
-        {
-            "data": {
-                "id": "p004",
-                "type": "Project",
-                "name": "Battleships AI",
-                "description": "",
-                "year": 2017
-            }
-        },
-        {
-            "data": {
-                "id": "p005",
-                "type": "Project",
-                "name": "Click the Ball",
-                "description": "",
-                "year": 2018
-            }
-        },
-        {
-            "data": {
-                "id": "p006",
-                "type": "Project",
-                "name": "Command Line Interpreter",
-                "description": "",
-                "year": 2017
-            }
-        },
-        {
-            "data": {
-                "id": "p007",
-                "type": "Project",
-                "name": "Diagram Editor",
-                "description": "",
-                "year": 2017
-            }
-        },
-        {
-            "data": {
-                "id": "p008",
-                "type": "Project",
-                "name": "Edit Distance Between Two Strings",
-                "description": "",
-                "year": 2018
-            }
-        },
-        {
-            "data": {
-                "id": "p009",
-                "type": "Project",
-                "name": "Hash Table",
-                "description": "",
-                "year": 2016
-            }
-        },
-        {
-            "data": {
-                "id": "p010",
-                "type": "Project",
-                "name": "Kruskal Minimum Weight Spanning Tree",
-                "description": "",
-                "year": 2018
-            }
-        },
-        {
-            "data": {
-                "id": "p011",
-                "type": "Project",
-                "name": "LZSS Encoder Decoder",
-                "description": "",
-                "year": 2019
-            }
-        },
-        {
-            "data": {
-                "id": "p012",
-                "type": "Project",
-                "name": "Magic Square Checker",
-                "description": "",
-                "year": 2016
-            }
-        },
-        {
-            "data": {
-                "id": "p013",
-                "type": "Project",
-                "name": "Map Transformer",
-                "description": "",
-                "year": 2018
-            }
-        },
-        {
-            "data": {
-                "id": "p014",
-                "type": "Project",
-                "name": "Matrix Determinant",
-                "description": "",
-                "year": 2016
-            }
-        },
-        {
-            "data": {
-                "id": "p015",
-                "type": "Project",
-                "name": "Maze Solver",
-                "description": "",
-                "year": 2017
-            }
-        },
-        {
-            "data": {
-                "id": "p016",
-                "type": "Project",
-                "name": "Monash Food Database",
-                "description": "",
-                "year": 2017
-            }
-        },
-        {
-            "data": {
-                "id": "p017",
-                "type": "Project",
-                "name": "Monster Evolution",
-                "description": "",
-                "year": 2016
-            }
-        },
-        {
-            "data": {
-                "id": "p018",
-                "type": "Project",
-                "name": "ODI File to Table ETL Builder",
-                "description": "",
-                "year": 2018
-            }
-        },
-        {
-            "data": {
-                "id": "p019",
-                "type": "Project",
-                "name": "Pascal's Triangle",
-                "description": "",
-                "year": 2016
-            }
-        },
-        {
-            "data": {
-                "id": "p020",
-                "type": "Project",
-                "name": "Prime Factors",
-                "description": "",
-                "year": 2018
-            }
-        },
-        {
-            "data": {
-                "id": "p021",
-                "type": "Project",
-                "name": "Process Schedule Methods",
-                "description": "",
-                "year": 2017
-            }
-        },
-        {
-            "data": {
-                "id": "p022",
-                "type": "Project",
-                "name": "Powershell Downgrade Attack Detection",
-                "description": "",
-                "year": 2019
-            }
-        },
-        {
-            "data": {
-                "id": "p023",
-                "type": "Project",
-                "name": "Speed Grocer",
-                "description": "",
-                "year": 2018
-            }
-        },
-        {
-            "data": {
-                "id": "p024",
-                "type": "Project",
-                "name": "Star Wars",
-                "description": "",
-                "year": 2017
-            }
-        },
-        {
-            "data": {
-                "id": "p025",
-                "type": "Project",
-                "name": "Threat Indicator Detection",
-                "description": "",
-                "year": 2019
-            }
-        },
-        {
-            "data": {
-                "id": "p026",
-                "type": "Project",
-                "name": "Time Spent Away from Desk Dashboard",
-                "description": "",
-                "year": 2018
-            }
-        },
-        {
-            "data": {
-                "id": "p027",
-                "type": "Project",
-                "name": "Total War",
-                "description": "",
-                "year": 2016
-            }
-        },
-        {
-            "data": {
-                "id": "p028",
-                "type": "Project",
-                "name": "Twitter Sentiment Analyser",
-                "description": "",
-                "year": 2019
-            }
-        },
-        {
-            "data": {
-                "id": "p029",
-                "type": "Project",
-                "name": "Wax Lyrical Website",
-                "description": "",
-                "year": 2017
-            }
-        },
-        {
-            "data": {
-                "id": "p030",
-                "type": "Project",
-                "name": "Wireless Sensor Network",
-                "description": "",
-                "year": 2018
-            }
-        },
-        {
-            "data": {
-                "id": "p031",
-                "type": "Project",
-                "name": "Word Graph",
-                "description": "",
-                "year": 2017
-            }
-        }
-    ]
-}
+[
+    {
+        "id": "p001",
+        "type": "Project",
+        "name": "3d Earth with Satellites",
+        "description": "",
+        "year": 2018
+    },
+    {
+        "id": "p002",
+        "type": "Project",
+        "name": "ASX Data Pipeline",
+        "description": "",
+        "year": 2019
+    },
+    {
+        "id": "p003",
+        "type": "Project",
+        "name": "Backbase Integration Testing",
+        "description": "",
+        "year": 2019
+    },
+    {
+        "id": "p004",
+        "type": "Project",
+        "name": "Battleships AI",
+        "description": "",
+        "year": 2017
+    },
+    {
+        "id": "p005",
+        "type": "Project",
+        "name": "Click the Ball",
+        "description": "",
+        "year": 2018
+    },
+    {
+        "id": "p006",
+        "type": "Project",
+        "name": "Command Line Interpreter",
+        "description": "",
+        "year": 2017
+    },
+    {
+        "id": "p007",
+        "type": "Project",
+        "name": "Diagram Editor",
+        "description": "",
+        "year": 2017
+    },
+    {
+        "id": "p008",
+        "type": "Project",
+        "name": "Edit Distance Between Two Strings",
+        "description": "",
+        "year": 2018
+    },
+    {
+        "id": "p009",
+        "type": "Project",
+        "name": "Hash Table",
+        "description": "",
+        "year": 2016
+    },
+    {
+        "id": "p010",
+        "type": "Project",
+        "name": "Kruskal Minimum Weight Spanning Tree",
+        "description": "",
+        "year": 2018
+    },
+    {
+        "id": "p011",
+        "type": "Project",
+        "name": "LZSS Encoder Decoder",
+        "description": "",
+        "year": 2019
+    },
+    {
+        "id": "p012",
+        "type": "Project",
+        "name": "Magic Square Checker",
+        "description": "",
+        "year": 2016
+    },
+    {
+        "id": "p013",
+        "type": "Project",
+        "name": "Map Transformer",
+        "description": "",
+        "year": 2018
+    },
+    {
+        "id": "p014",
+        "type": "Project",
+        "name": "Matrix Determinant",
+        "description": "",
+        "year": 2016
+    },
+    {
+        "id": "p015",
+        "type": "Project",
+        "name": "Maze Solver",
+        "description": "",
+        "year": 2017
+    },
+    {
+        "id": "p016",
+        "type": "Project",
+        "name": "Monash Food Database",
+        "description": "",
+        "year": 2017
+    },
+    {
+        "id": "p017",
+        "type": "Project",
+        "name": "Monster Evolution",
+        "description": "",
+        "year": 2016
+    },
+    {
+        "id": "p018",
+        "type": "Project",
+        "name": "ODI File to Table ETL Builder",
+        "description": "",
+        "year": 2018
+    },
+    {
+        "id": "p019",
+        "type": "Project",
+        "name": "Pascal's Triangle",
+        "description": "",
+        "year": 2016
+    },
+    {
+        "id": "p020",
+        "type": "Project",
+        "name": "Prime Factors",
+        "description": "",
+        "year": 2018
+    },
+    {
+        "id": "p021",
+        "type": "Project",
+        "name": "Process Schedule Methods",
+        "description": "",
+        "year": 2017
+    },
+    {
+        "id": "p022",
+        "type": "Project",
+        "name": "Powershell Downgrade Attack Detection",
+        "description": "",
+        "year": 2019
+    },
+    {
+        "id": "p023",
+        "type": "Project",
+        "name": "Speed Grocer",
+        "description": "",
+        "year": 2018
+    },
+    {
+        "id": "p024",
+        "type": "Project",
+        "name": "Star Wars",
+        "description": "",
+        "year": 2017
+    },
+    {
+        "id": "p025",
+        "type": "Project",
+        "name": "Threat Indicator Detection",
+        "description": "",
+        "year": 2019
+    },
+    {
+        "id": "p026",
+        "type": "Project",
+        "name": "Time Spent Away from Desk Dashboard",
+        "description": "",
+        "year": 2018
+    },
+    {
+        "id": "p027",
+        "type": "Project",
+        "name": "Total War",
+        "description": "",
+        "year": 2016
+    },
+    {
+        "id": "p028",
+        "type": "Project",
+        "name": "Twitter Sentiment Analyser",
+        "description": "",
+        "year": 2019
+    },
+    {
+        "id": "p029",
+        "type": "Project",
+        "name": "Wax Lyrical Website",
+        "description": "",
+        "year": 2017
+    },
+    {
+        "id": "p030",
+        "type": "Project",
+        "name": "Wireless Sensor Network",
+        "description": "",
+        "year": 2018
+    },
+    {
+        "id": "p031",
+        "type": "Project",
+        "name": "Word Graph",
+        "description": "",
+        "year": 2017
+    },
+    {
+        "id": "p032",
+        "type": "Project",
+        "name": "Payments Digital Banking Service",
+        "description": "",
+        "year": 2019
+    }
+]

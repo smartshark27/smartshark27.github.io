@@ -1,13 +1,14 @@
 import React from "react";
 import HomeButton from "./components/HomeButton";
-const cytoscape = require("./Cytoscape");
+import D3Graph from "./components/Graph";
+import InfoOverlay from "./components/InfoOverlay";
 
-const technologyNodes = require("./data/technology.json").nodes;
-const projectNodes = require("./data/project.json").nodes;
-const technologyTechnologyEdges = require("./data/technology-technology.json").edges;
-const projectTechnologyEdges = require("./data/project-technology.json").edges;
+const technologyNodes = require("./data/technology.json");
+const projectNodes = require("./data/project.json");
+const technologyTechnologyLinks = require("./data/technology-technology.json");
+const projectTechnologyLinks = require("./data/project-technology.json");
 const allNodes = technologyNodes.concat(projectNodes);
-const allEdges = technologyTechnologyEdges.concat(projectTechnologyEdges);
+const allLinks = technologyTechnologyLinks.concat(projectTechnologyLinks);
 
 export default class App extends React.Component {
   constructor(props) {
@@ -15,46 +16,45 @@ export default class App extends React.Component {
     this.state = {
       windowWidth: 0,
       windowHeight: 0,
-      nodes: allNodes,
-      edges: allEdges,
+      data: {
+        nodes: allNodes,
+        links: allLinks
+      },
       selectedNode: null
     };
-    this.renderCytoscapeElement = this.renderCytoscapeElement.bind(this);
     this.updateWindowDimensions = this.updateWindowDimensions.bind(this);
-    this.updateNodesAndEdges = this.updateNodesAndEdges.bind(this);
+    this.updateNodesAndLinks = this.updateNodesAndLinks.bind(this);
     this.handleNodeClick = this.handleNodeClick.bind(this);
     this.handleHomeButtonClick = this.handleHomeButtonClick.bind(this);
+    this.fg = React.createRef()
   }
 
-  renderCytoscapeElement() {
-    this.cy = cytoscape.getCytoscapeElement(this.state.nodes, this.state.edges);
-    this.cy.nodes().on('click', this.handleNodeClick)
-  }
-
-  handleNodeClick(e) {
-    const selectedNode = e.target;
-    const edges = allEdges.filter(edge => {
-      return edge.data.source === e.target.data('id') || edge.data.target === e.target.data('id')
+  handleNodeClick(selectedNode) {
+    const links = allLinks.filter(link => {
+      return link.source.id === selectedNode.id || link.target.id === selectedNode.id
     })
     const nodes = allNodes.filter(node => {
-      return node.data.id === e.target.data('id') || edges.reduce((isIn, curr) => {
-        return isIn || node.data.id === curr.data.source || node.data.id === curr.data.target;
+      return node.id === selectedNode.id || links.reduce((isIn, curr) => {
+        return isIn || node.id === curr.source.id || node.id === curr.target.id;
       }, false);
     })
-    this.updateNodesAndEdges(selectedNode, nodes, edges);
+    this.updateNodesAndLinks(selectedNode, nodes, links);
+    this.fg.current.centerAt(selectedNode.x, selectedNode.y, 1000)
+    this.fg.current.zoom(3, 1000)
   }
 
   handleHomeButtonClick() {
-    this.updateNodesAndEdges(null, allNodes, allEdges);
+    this.updateNodesAndLinks(null, allNodes, allLinks);
+    this.fg.current.centerAt(0, 0, 1000)
+    this.fg.current.zoom(1, 1000)
   }
 
-  updateNodesAndEdges(selectedNode, nodes, edges) {
+  updateNodesAndLinks(selectedNode, nodes, links) {
     const state = this.state;
     state.selectedNode = selectedNode;
-    state.nodes = nodes;
-    state.edges = edges;
+    state.data.nodes = nodes;
+    state.data.links = links;
     this.setState(state);
-    this.renderCytoscapeElement();
   }
 
   updateWindowDimensions() {
@@ -67,7 +67,6 @@ export default class App extends React.Component {
   componentDidMount() {
     this.updateWindowDimensions();
     window.addEventListener('resize', this.updateWindowDimensions);
-    this.renderCytoscapeElement();
   }
 
   componentWillUnmount() {
@@ -77,8 +76,20 @@ export default class App extends React.Component {
   render() {
     return (
       <div>
-        <HomeButton handleClick={this.handleHomeButtonClick}/>
-        <div style={{ backgroundColor: "black", width: this.state.windowWidth, height: this.state.windowHeight }} id="cy" />
+        <HomeButton handleClick={this.handleHomeButtonClick} />
+        <InfoOverlay
+          width={this.state.windowWidth / 4}
+          height={this.state.windowHeight - 40}
+          selectedNode={this.state.selectedNode}
+        />
+        <D3Graph
+          fg={this.fg}
+          selectedNode={this.state.selectedNode}
+          data={this.state.data}
+          width={this.state.windowWidth}
+          height={this.state.windowHeight}
+          handleNodeClick={this.handleNodeClick}
+        />
       </div>
     );
   }

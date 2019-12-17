@@ -1,0 +1,11 @@
+{
+    "Technology": {
+        "color": "rgba(66, 135, 245, 0.9)"
+    },
+    "Project": {
+        "color": "rgba(88, 199, 54, 0.9)"
+    },
+    "Default": {
+        "color": "rgba(245, 135, 66, 0.9)"
+    }
+}

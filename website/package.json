@@ -5,9 +5,9 @@
   "dependencies": {
     "@material-ui/core": "^4.7.0",
     "@material-ui/icons": "^4.5.1",
-    "cytoscape": "^3.12.1",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
+    "react-force-graph-2d": "^1.13.1",
     "react-scripts": "3.2.0"
   },
   "scripts": {
