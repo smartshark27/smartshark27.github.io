@@ -4,7 +4,7 @@ import HomeIcon from '@material-ui/icons/Home';
 
 const homeButtonStyle = {
     position: "absolute",
-    zIndex: 100,
+    zIndex: 100, // Render above everything else
     top: 10,
     left: 10,
     color: 'black',

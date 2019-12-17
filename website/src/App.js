@@ -1,6 +1,7 @@
 import React from "react";
 import HomeButton from "./components/HomeButton";
 import D3Graph from "./components/Graph";
+import InfoOverlay from "./components/InfoOverlay";
 
 const technologyNodes = require("./data/technology.json");
 const projectNodes = require("./data/project.json");
@@ -76,6 +77,11 @@ export default class App extends React.Component {
     return (
       <div>
         <HomeButton handleClick={this.handleHomeButtonClick} />
+        <InfoOverlay
+          width={this.state.windowWidth / 4}
+          height={this.state.windowHeight - 40}
+          selectedNode={this.state.selectedNode}
+        />
         <D3Graph
           fg={this.fg}
           selectedNode={this.state.selectedNode}
