@@ -640,7 +640,7 @@
         "id": "t092",
         "type": "Technology",
         "name": "Cloud SQL",
-        "description": "Cloud database managedment service",
+        "description": "Cloud database management service",
         "skillLevel": 1
     }
 ]

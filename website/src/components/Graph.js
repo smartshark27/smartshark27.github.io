@@ -25,6 +25,7 @@ export default function Graph(props) {
             ref={props.fg}
             graphData={props.data}
             onNodeClick={props.handleNodeClick}
+            onBackgroundClick={props.handleBackgroundClick}
             nodeColor={(node) => appearance[node.type].color}
             nodeVal={nodeSize}
             nodeCanvasObject={renderLabel}

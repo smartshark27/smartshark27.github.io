@@ -5,10 +5,7 @@ const appearance = require("../appearance.json");
 const style = {
     position: "absolute",
     zIndex: 101, // Render above everything else
-    top: 20,
-    right: 20,
     borderRadius: 16,
-    overflowY: "scroll",
     paddingBottom: 25,
 }
 
@@ -17,12 +14,23 @@ export default function InfoOverlay(props) {
     if (sn === null) {
         return null
     }
+    const isNarrowScreen = props.windowWidth <= 400;
 
     const dynamicStyle = {
-        maxWidth: props.width,
+        backgroundColor: appearance[sn.type].color,
         minHeight: 1,
-        maxHeight: props.height,
-        backgroundColor: appearance[sn.type].color
+    }
+    if (isNarrowScreen) {
+        dynamicStyle["maxWidth"] = props.windowWidth
+        dynamicStyle["minHeight"] = 1
+        dynamicStyle["top"] = props.windowHeight - 75
+    } else {
+        dynamicStyle["maxWidth"] = props.windowWidth / 4
+        dynamicStyle["minHeight"] = 1
+        dynamicStyle["maxHeight"] = props.windowHeight - 40
+        dynamicStyle["top"] = 20
+        dynamicStyle["right"] = 20
+        dynamicStyle["overflowY"] = "scroll"
     }
 
     return (

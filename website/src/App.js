@@ -1,5 +1,5 @@
 import React from "react";
-import HomeButton from "./components/HomeButton";
+import Header from "./components/Header";
 import D3Graph from "./components/Graph";
 import InfoOverlay from "./components/InfoOverlay";
 
@@ -26,6 +26,7 @@ export default class App extends React.Component {
     this.updateNodesAndLinks = this.updateNodesAndLinks.bind(this);
     this.handleNodeClick = this.handleNodeClick.bind(this);
     this.handleHomeButtonClick = this.handleHomeButtonClick.bind(this);
+    this.handleBackgroundClick = this.handleBackgroundClick.bind(this);
     this.fg = React.createRef()
   }
 
@@ -47,6 +48,10 @@ export default class App extends React.Component {
     this.updateNodesAndLinks(null, allNodes, allLinks);
     this.fg.current.centerAt(0, 0, 1000)
     this.fg.current.zoom(1, 1000)
+  }
+
+  handleBackgroundClick() {
+    this.updateNodesAndLinks(null, this.state.data.nodes, this.state.data.links)
   }
 
   updateNodesAndLinks(selectedNode, nodes, links) {
@@ -76,10 +81,10 @@ export default class App extends React.Component {
   render() {
     return (
       <div>
-        <HomeButton handleClick={this.handleHomeButtonClick} />
+        <Header handleClick={this.handleHomeButtonClick} />
         <InfoOverlay
-          width={this.state.windowWidth / 4}
-          height={this.state.windowHeight - 40}
+          windowWidth={this.state.windowWidth}
+          windowHeight={this.state.windowHeight}
           selectedNode={this.state.selectedNode}
         />
         <D3Graph
@@ -89,6 +94,7 @@ export default class App extends React.Component {
           width={this.state.windowWidth}
           height={this.state.windowHeight}
           handleNodeClick={this.handleNodeClick}
+          handleBackgroundClick={this.handleBackgroundClick}
         />
       </div>
     );
