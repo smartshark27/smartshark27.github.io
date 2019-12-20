@@ -1,5 +1,5 @@
 import React from "react";
-import { Container } from '@material-ui/core';
+import { Container, Typography } from '@material-ui/core';
 const appearance = require("../appearance.json");
 
 const style = {
@@ -9,6 +9,7 @@ const style = {
     right: 20,
     borderRadius: 16,
     overflowY: "scroll",
+    paddingBottom: 25,
 }
 
 export default function InfoOverlay(props) {
@@ -27,7 +28,8 @@ export default function InfoOverlay(props) {
     return (
         <Container style={{ ...style, ...dynamicStyle }}>
             <div>
-                <p>{sn.name}</p>
+                <h1>{sn.name}</h1>
+                <Typography>{sn.description}</Typography>
             </div>
         </Container>
     )
