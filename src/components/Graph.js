@@ -16,7 +16,8 @@ function renderLabel(node, ctx, globalScale) {
     ctx.textAlign = "center";
     ctx.textBaseline = "middle";
     ctx.fillStyle = 'black';
-    ctx.fillText(node.name, node.x, node.y + 10)
+    const bottomDistance = nodeSize(node) + 10
+    ctx.fillText(node.name, node.x, node.y + bottomDistance)
 }
 
 export default function Graph(props) {
