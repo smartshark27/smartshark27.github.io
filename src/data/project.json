@@ -3,224 +3,255 @@
         "id": "p001",
         "type": "Project",
         "name": "3d Earth with Satellites",
-        "description": "",
-        "year": 2018
+        "description": "The outcome of this assignment was an interactive globe with the current position of GPS satellites. The user can rotate the globe and click on a satellite to display the satellite name. The globe is textured and shows the current daylight area. The goal was to apply interactive three-dimensional transformations and coordinate systems, 3D rendering, shading, texture mapping and shader programming.",
+        "year": 2018,
+        "grade": 90,
+        "image": ""
     },
     {
         "id": "p002",
         "type": "Project",
         "name": "ASX Data Pipeline",
-        "description": "",
-        "year": 2019
+        "description": "Automate the collection of Australian Stock Exchange related data to be used for analysis. Mostly written in node.js for deployment in Google Cloud.\n\nDiscontinued to properly rethink how to do this in a way that automatically analyses the data and does something about it. Also, Google Sheets data can be up to 20 minutes delayed, which is not even close to being competitive.",
+        "year": 2019,
+        "sourceCode": "https://github.com/smartshark27/asx-data-analysis"
     },
     {
         "id": "p003",
         "type": "Project",
         "name": "Backbase Integration Testing",
-        "description": "",
+        "description": "A couple of weeks spent API and QA testing the implementation and integration of the Backbase platform using Postman.",
         "year": 2019
     },
     {
         "id": "p004",
         "type": "Project",
         "name": "Battleships AI",
-        "description": "",
-        "year": 2017
+        "description": "The outcome of this assignment was to write an algorithm that was as efficient as possible in sinking ships in a game of Battleship. The code was written in Haskel and the efficiency was ranked against other students.",
+        "year": 2017,
+        "grade": 75
     },
     {
         "id": "p005",
         "type": "Project",
         "name": "Click the Ball",
-        "description": "",
-        "year": 2018
+        "description": "A friend of mine who was studying design asked me how to make an object on a webpage jump away from the user whenever they tried to click it. Within an hour or so, I had written a simple HTML webpage with minimal embedded JavaScript which contained two elements: a red circle representing a ball, and the text, 'Click the ball'. And sure enough the ball would bounce away from the mouse. It could go off the page and over the text.",
+        "year": 2018,
+        "code": "",
+        "link": ""
     },
     {
         "id": "p006",
         "type": "Project",
         "name": "Command Line Interpreter",
-        "description": "",
-        "year": 2017
+        "description": "The objective of this assignment was to implement a reduced version of a CLI program that has the similar functionality of the Unix/Linux shell. The program was implemented on the Unix/Linux operating system using the C programming language with certain Unix commands.",
+        "year": 2017,
+        "grade": 85
     },
     {
         "id": "p007",
         "type": "Project",
         "name": "Diagram Editor",
-        "description": "",
-        "year": 2017
+        "description": "In this assignment, I used an Observable stream created earlier in the unit to create a basic SVG diagram editor.",
+        "year": 2017,
+        "grade": 83,
+        "image": ""
     },
     {
         "id": "p008",
         "type": "Project",
         "name": "Edit Distance Between Two Strings",
-        "description": "",
-        "year": 2018
+        "description": "The edit distance between two strings is the minimum number of edit operations (insertions, deletions, substitutions) required to transform one string into the other. Given some text txt[1..n] and a pattern pat[1..m], this program identifies all positions within txt[1..n] that matches the pat[1..m] within an Edit distance <= 1.",
+        "year": 2018,
+        "grade": 86
     },
     {
         "id": "p009",
         "type": "Project",
         "name": "Hash Table",
-        "description": "",
-        "year": 2016
+        "description": "Hash table implementation which uses Linear Probing to resolve collisions.",
+        "year": 2016,
+        "grade": 100
     },
     {
         "id": "p010",
         "type": "Project",
         "name": "Kruskal Minimum Weight Spanning Tree",
-        "description": "",
-        "year": 2018
+        "description": "This assignment involved implementing Kruskal’s Minimum-weight Spanning Tree (MST) algorithm using the union-by-rank and find-using-path-compression operations.",
+        "year": 2018,
+        "grade": 86
     },
     {
         "id": "p011",
         "type": "Project",
         "name": "LZSS Encoder Decoder",
-        "description": "",
-        "year": 2019
+        "description": "This assignment involved implementing an encoder and decoder for the Lempel-Ziv-Storer-Szymanski (LZSS) variation of the LZ77 algorithm.",
+        "year": 2019,
+        "grade": 69
     },
     {
         "id": "p012",
         "type": "Project",
         "name": "Magic Square Checker",
-        "description": "",
-        "year": 2016
+        "description": "Given a square of numbers, calculates whether the square satisfies the properties to be a 'magic square'. This was my first ever asssignment, but probably has more nested if statements than any other.",
+        "year": 2016,
+        "grade": 86
     },
     {
         "id": "p013",
         "type": "Project",
         "name": "Map Transformer",
-        "description": "",
-        "year": 2018
+        "description": "The outcome of this assignment is an interactive world map displaying continental outlines. The user can adjust the map projection (which triggers an animation), and the coordinate under the current cursor position is displayed.",
+        "year": 2018,
+        "grade": 95,
+        "image": ""
     },
     {
         "id": "p014",
         "type": "Project",
         "name": "Matrix Determinant",
-        "description": "",
-        "year": 2016
+        "description": "The outcome of this assignment was to write a Python program to compute the determinant of a given square matrix. The program accepts an N x N matrix as a comma separated file, checks if the matrix is square, and if yes: computes the matrix determinant using the permutation method, and outputs the determinant as the answer.",
+        "year": 2016,
+        "grade": 38
     },
     {
         "id": "p015",
         "type": "Project",
         "name": "Maze Solver",
-        "description": "",
-        "year": 2017
+        "description": "Solves mazes by viewing them as undirected, unweighted graphs, and then seeking the shortest path from the Entry to the Exit cell.",
+        "year": 2017,
+        "grade": 71,
+        "image": ""
     },
     {
         "id": "p016",
         "type": "Project",
         "name": "Monash Food Database",
-        "description": "",
-        "year": 2017
+        "description": "This assignment involved writing the SQL to initialize a database for the mock client Monash Food.",
+        "year": 2017,
+        "grade": 80
     },
     {
         "id": "p017",
         "type": "Project",
         "name": "Monster Evolution",
-        "description": "",
-        "year": 2016
+        "description": "This assignment involved creating a text game in C++ with the description:\n\nYou have woken up in a strange dungeon. It is full of weird monsters that you are able to catch and look after! You will wander the dungeon, finding monsters and evolving them into more powerful and special versions of themselves. Can you evolve a monster that you can fight against the evil boss that guards the exit of the dungeon?",
+        "year": 2016,
+        "grade": 87,
+        "image": ""
     },
     {
         "id": "p018",
         "type": "Project",
         "name": "ODI File to Table ETL Builder",
-        "description": "",
+        "description": "This task involved writing a script that automatically created SQL schemas and the Oracle Data Integrator (ODI) workflows to populate them by reading a simple CSV configuration file.",
         "year": 2018
     },
     {
         "id": "p019",
         "type": "Project",
         "name": "Pascal's Triangle",
-        "description": "",
-        "year": 2016
+        "description": "A recursive program that takes as input a non-negative integer n and prints out the first n + 1 rows of Pascal’s triangle.",
+        "year": 2016,
+        "grade": 92
     },
     {
         "id": "p020",
         "type": "Project",
         "name": "Prime Factors",
-        "description": "",
+        "description": "A Python program which factorizes the number after the 100 prime numbers less than a given N.",
         "year": 2018
     },
     {
         "id": "p021",
         "type": "Project",
         "name": "Process Schedule Methods",
-        "description": "",
+        "description": "The aim of this assignment was to implement and simulate the performance of three different schedule algorithms. The algorithms were First-Come-First-Served, Round Robin and Shortest Remaining Time.",
         "year": 2017
     },
     {
         "id": "p022",
         "type": "Project",
         "name": "Powershell Downgrade Attack Detection",
-        "description": "",
+        "description": "A Scala script which finds cases of when a computer runs an older (insecure) version of PowerShell. This algorithm is run against all monitored ANZ computers everyday.",
         "year": 2019
     },
     {
         "id": "p023",
         "type": "Project",
         "name": "Speed Grocer",
-        "description": "",
-        "year": 2018
+        "description": "A simple grocery list app. I had ideas for it, but never got around to making the app any more useful than Google Keep already is.",
+        "year": 2018,
+        "image": ""
     },
     {
         "id": "p024",
         "type": "Project",
         "name": "Star Wars",
-        "description": "",
-        "year": 2017
+        "description": "A text-based 'roguelike' game set in the Star Wars universe. As it stood, the game functioned but was missing a lot of desired functionality. Over the course of the project, working with a partner, we incrementally added new features to the game.",
+        "year": 2017,
+        "grade": 75
     },
     {
         "id": "p025",
         "type": "Project",
         "name": "Threat Indicator Detection",
-        "description": "",
+        "description": "A Spark program written in Scala which matched threat data against internal systems at ANZ. This was run everyday and uncovered a few threats. When it was built, it just matched dangerous URLs, but it was going to be expanded to search for dangerous emails and attachments.",
         "year": 2019
     },
     {
         "id": "p026",
         "type": "Project",
         "name": "Time Spent Away from Desk Dashboard",
-        "description": "",
-        "year": 2018
+        "description": "This was a dashboard built using PowerBI and data I had manually logged to show how much time I had spent at my desk, and how much time I had spent doing other things throughout the length of my IBL placement at Monash eSolutions.",
+        "year": 2018,
+        "image": ""
     },
     {
         "id": "p027",
         "type": "Project",
         "name": "Total War",
-        "description": "",
-        "year": 2016
+        "description": "The aim of this assignment was to implement a computer-based variant of the card game War. This is a two-player card game played with a standard deck of cards in which the aim of the game is to capture all cards in the deck. When one player has all 52 cards, the game is over.",
+        "year": 2016,
+        "grade": 90
     },
     {
         "id": "p028",
         "type": "Project",
         "name": "Twitter Sentiment Analyser",
-        "description": "",
+        "description": "A simple Python program which applied a sentiment analyser library to Twitter data searched using a given search string. I later used a Node.js variant in my ASX Data Analysis project.",
         "year": 2019
     },
     {
         "id": "p029",
         "type": "Project",
         "name": "Wax Lyrical Website",
-        "description": "",
-        "year": 2017
+        "description": "For an assignment, I had to make a website for a band. Fortunately, my friend was in a band called Wax Lyrical for some reason. Using an open-source template, I applied the band's artwork and information to the page and used some basic JavaScript functionality.",
+        "year": 2017,
+        "grade": 80,
+        "image": ""
     },
     {
         "id": "p030",
         "type": "Project",
         "name": "Wireless Sensor Network",
-        "description": "",
-        "year": 2018
+        "description": "This assignment required using the MPI C libraries to simulate the operation of a wireless sensor network. It had to send the least amount of messages as possible to the other nodes",
+        "year": 2018,
+        "grade": 76
     },
     {
         "id": "p031",
         "type": "Project",
         "name": "Word Graph",
-        "description": "",
-        "year": 2017
+        "description": "This assignment was to write a Python program that built a special graph from a dictionary of English words. Given a list of 5 letter workds, it would build a graph where every word was a node. It would create edges between words that could be transformed into each other by editing one letter.",
+        "year": 2017,
+        "grade": 71
     },
     {
         "id": "p032",
         "type": "Project",
         "name": "Payments Digital Banking Service",
-        "description": "",
+        "description": "Using Go, we are building a cloud-based backend payment service which forwards single and scheduled payment requests to the on-premises payment systems at ANZ.",
         "year": 2019
     }
 ]
