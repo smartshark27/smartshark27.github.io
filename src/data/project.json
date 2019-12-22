@@ -253,5 +253,14 @@
         "name": "Payments Digital Banking Service",
         "description": "Using Go, we are building a cloud-based backend payment service which forwards single and scheduled payment requests to the on-premises payment systems at ANZ.",
         "year": 2019
+    },
+    {
+        "id": "p033",
+        "type": "Project",
+        "name": "Interactive Resume",
+        "description": "A website showcasing all the technologies used, projects worked on, and how they're related.",
+        "year": 2019,
+        "code": "https://github.com/smartshark27/smartshark27.github.io",
+        "image": ""
     }
 ]

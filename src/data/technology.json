@@ -32,7 +32,7 @@
         "type": "Technology",
         "name": "Amazon Web Services",
         "description": "Cloud computing services suite",
-        "skillLevel": 0
+        "skillLevel": 1
     },
     {
         "id": "t006",
@@ -53,7 +53,7 @@
         "type": "Technology",
         "name": "Apache Hadoop",
         "description": "Distributed processing framework",
-        "skillLevel": 0
+        "skillLevel": 1
     },
     {
         "id": "t009",
@@ -126,13 +126,6 @@
         "skillLevel": 2
     },
     {
-        "id": "t019",
-        "type": "Technology",
-        "name": "Checkmarx",
-        "description": "Source code analysis tool",
-        "skillLevel": 0
-    },
-    {
         "id": "t020",
         "type": "Technology",
         "name": "Cloud Pub/Sub",
@@ -172,7 +165,7 @@
         "type": "Technology",
         "name": "Cypher",
         "description": "Graph query language",
-        "skillLevel": 0
+        "skillLevel": 2
     },
     {
         "id": "t026",
@@ -263,7 +256,7 @@
         "type": "Technology",
         "name": "GraphQL",
         "description": "Graph query language",
-        "skillLevel": 0
+        "skillLevel": 2
     },
     {
         "id": "t039",
@@ -278,13 +271,6 @@
         "name": "Haskell",
         "description": "Functional programming language",
         "skillLevel": 1
-    },
-    {
-        "id": "t041",
-        "type": "Technology",
-        "name": "Helm",
-        "description": "Kubernetes application manager",
-        "skillLevel": 0
     },
     {
         "id": "t042",
@@ -357,18 +343,11 @@
         "skillLevel": 1
     },
     {
-        "id": "t052",
-        "type": "Technology",
-        "name": "k6",
-        "description": "API performance testing tool",
-        "skillLevel": 0
-    },
-    {
         "id": "t053",
         "type": "Technology",
         "name": "Kubernetes",
         "description": "Container orchestration system",
-        "skillLevel": 0
+        "skillLevel": 1
     },
     {
         "id": "t054",
@@ -515,7 +494,7 @@
         "type": "Technology",
         "name": "R",
         "description": "Programming language for statistical computing",
-        "skillLevel": 0
+        "skillLevel": 1
     },
     {
         "id": "t075",
@@ -530,13 +509,6 @@
         "name": "Scala",
         "description": "Programming language",
         "skillLevel": 2
-    },
-    {
-        "id": "t077",
-        "type": "Technology",
-        "name": "Splunk",
-        "description": "Machine data tool",
-        "skillLevel": 0
     },
     {
         "id": "t078",
@@ -613,7 +585,7 @@
         "type": "Technology",
         "name": "Yarn",
         "description": "Package manager",
-        "skillLevel": 0
+        "skillLevel": 1
     },
     {
         "id": "t089",
