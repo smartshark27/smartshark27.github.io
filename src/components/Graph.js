@@ -12,7 +12,7 @@ function nodeSize(node) {
 function renderLabel(node, ctx, globalScale) {
     if (globalScale < 1.5) return;
     const fontSize = 15 / globalScale;
-    ctx.font = `${fontSize}px "arial`;
+    ctx.font = `${fontSize}px "Exo 2"`;
     ctx.textAlign = "center";
     ctx.textBaseline = "middle";
     ctx.fillStyle = 'black';

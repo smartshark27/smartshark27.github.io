@@ -1,12 +1,12 @@
 import React from "react";
-import { Container, Typography } from '@material-ui/core';
+import { Container } from '@material-ui/core';
 const appearance = require("../appearance.json");
 
 const style = {
     position: "absolute",
     zIndex: 101, // Render above everything else
     borderRadius: 16,
-    paddingBottom: 25,
+    paddingBottom: 10,
 }
 
 export default function InfoOverlay(props) {
@@ -37,10 +37,8 @@ export default function InfoOverlay(props) {
 
     return (
         <Container style={{ ...style, ...dynamicStyle }}>
-            <div>
-                <h1>{sn.name}</h1>
-                <Typography>{sn.description}</Typography>
-            </div>
+            <h2>{sn.name}</h2>
+            <p>{sn.description}</p>
         </Container>
     )
 }
