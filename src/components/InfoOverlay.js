@@ -14,16 +14,18 @@ export default function InfoOverlay(props) {
     if (sn === null) {
         return null
     }
-    const isNarrowScreen = props.windowWidth <= 400;
 
+    const isNarrowScreen = props.windowWidth <= 400;
     const dynamicStyle = {
         backgroundColor: appearance[sn.type].color,
         minHeight: 1,
     }
     if (isNarrowScreen) {
-        dynamicStyle["maxWidth"] = props.windowWidth
+        dynamicStyle["maxWidth"] = props.windowWidth - 20
         dynamicStyle["minHeight"] = 1
         dynamicStyle["top"] = props.windowHeight - 75
+        dynamicStyle["left"] = 10
+        dynamicStyle["marginBottom"] = 10
     } else {
         dynamicStyle["maxWidth"] = props.windowWidth / 4
         dynamicStyle["minHeight"] = 1

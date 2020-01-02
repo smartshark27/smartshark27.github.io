@@ -13,8 +13,7 @@
         "type": "Project",
         "name": "ASX Data Pipeline",
         "description": "Automate the collection of Australian Stock Exchange related data to be used for analysis. Mostly written in node.js for deployment in Google Cloud.\n\nDiscontinued to properly rethink how to do this in a way that automatically analyses the data and does something about it. Also, Google Sheets data can be up to 20 minutes delayed, which is not even close to being competitive.",
-        "year": 2019,
-        "sourceCode": "https://github.com/smartshark27/asx-data-analysis"
+        "year": 2019
     },
     {
         "id": "p003",
