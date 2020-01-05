@@ -438,7 +438,7 @@
         "type": "Technology",
         "name": "Neo4j",
         "description": "Graph database platform",
-        "skillLevel": 1
+        "skillLevel": 2
     },
     {
         "id": "t067",
