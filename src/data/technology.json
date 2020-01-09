@@ -172,7 +172,7 @@
         "type": "Technology",
         "name": "Docker",
         "description": "Container platform",
-        "skillLevel": 1
+        "skillLevel": 2
     },
     {
         "id": "t027",

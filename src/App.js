@@ -69,8 +69,11 @@ export default class App extends React.Component {
     this.setState(state);
   }
 
-  componentDidMount() {
+  componentWillMount() {
     this.updateWindowDimensions();
+  }
+
+  componentDidMount() {
     window.addEventListener('resize', this.updateWindowDimensions);
   }
 
