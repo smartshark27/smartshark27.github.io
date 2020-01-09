@@ -18,9 +18,9 @@ export default function InfoOverlay(props) {
 
     return (
         <Container style={dynamicStyle}>
-            <CommonProperties selectedNode={props.selectedNode}/>
-            <ProjectPropertiesDiv selectedNode={props.selectedNode}/>
-            <TechnologyProperties selectedNode={props.selectedNode}/>
+            <CommonProperties selectedNode={props.selectedNode} />
+            <ProjectPropertiesDiv selectedNode={props.selectedNode} />
+            <TechnologyProperties selectedNode={props.selectedNode} />
         </Container>
     )
 }
@@ -65,12 +65,14 @@ function CommonProperties(props) {
 
 function ProjectPropertiesDiv(props) {
     const sn = props.selectedNode;
-    const grade = (sn.grade) ? sn.grade.toString() + "/100" : null; 
+    const grade = (sn.grade) ? sn.grade.toString() + "/100" : null;
+    const altText = "Screenshot for " + sn.name
     return (
         <>
-            <OneLineProperty displayName="Year" property={sn.year}/>
-            <OneLineProperty displayName="Grade" property={grade}/>
-            <Link displayName="Source Code" property={sn.code}/>
+            <OneLineProperty displayName="Year" property={sn.year} />
+            <OneLineProperty displayName="Grade" property={grade} />
+            <Link displayName="Source Code" property={sn.code} />
+            <Image altText={altText} property={sn.image} />
         </>
     )
 }
@@ -78,7 +80,7 @@ function ProjectPropertiesDiv(props) {
 function TechnologyProperties(props) {
     const sn = props.selectedNode;
     return (
-            <OneLineProperty displayName="Skill Level" property={skillLevelMap(sn.skillLevel)}/>
+        <OneLineProperty displayName="Skill Level" property={skillLevelMap(sn.skillLevel)} />
     )
 }
 
@@ -116,7 +118,22 @@ function Link(props) {
             <>
                 <Box>{displayName + ":"}</Box>
                 <a href={property}>{property}</a>
-                <p/>
+                <p />
+            </>
+        )
+    }
+}
+
+function Image(props) {
+    const altText = props.altText;
+    const property = props.property;
+    if (!property) {
+        return null;
+    } else {
+        return (
+            <>
+                <img src={property} alt={altText} width={"100%"} />
+                <p />
             </>
         )
     }
