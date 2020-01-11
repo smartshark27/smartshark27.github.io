@@ -5,8 +5,7 @@
         "name": "3d Earth with Satellites",
         "description": "The outcome of this assignment was an interactive globe with the current position of GPS satellites. The user can rotate the globe and click on a satellite to display the satellite name. The globe is textured and shows the current daylight area. The goal was to apply interactive three-dimensional transformations and coordinate systems, 3D rendering, shading, texture mapping and shader programming.",
         "year": 2018,
-        "grade": 90,
-        "image": ""
+        "grade": 90
     },
     {
         "id": "p002",
@@ -36,8 +35,7 @@
         "name": "Click the Ball",
         "description": "A friend of mine who was studying design asked me how to make an object on a webpage jump away from the user whenever they tried to click it. Within an hour or so, I had written a simple HTML webpage with minimal embedded JavaScript which contained two elements: a red circle representing a ball, and the text, 'Click the ball'. And sure enough the ball would bounce away from the mouse. It could go off the page and over the text.",
         "year": 2018,
-        "code": "",
-        "link": ""
+        "link": "https://i.imgur.com/b1Vwej3.png"
     },
     {
         "id": "p006",
@@ -54,7 +52,7 @@
         "description": "In this assignment, I used an Observable stream created earlier in the unit to create a basic SVG diagram editor.",
         "year": 2017,
         "grade": 83,
-        "image": ""
+        "image": "https://i.imgur.com/SQ0hYC8.png"
     },
     {
         "id": "p008",
@@ -94,7 +92,8 @@
         "name": "Magic Square Checker",
         "description": "Given a square of numbers, calculates whether the square satisfies the properties to be a 'magic square'. This was my first ever asssignment, but probably has more nested if statements than any other.",
         "year": 2016,
-        "grade": 86
+        "grade": 86,
+        "image": "https://i.imgur.com/xrCoGA2.png"
     },
     {
         "id": "p013",
@@ -102,8 +101,7 @@
         "name": "Map Transformer",
         "description": "The outcome of this assignment is an interactive world map displaying continental outlines. The user can adjust the map projection (which triggers an animation), and the coordinate under the current cursor position is displayed.",
         "year": 2018,
-        "grade": 95,
-        "image": ""
+        "grade": 95
     },
     {
         "id": "p014",
@@ -120,7 +118,7 @@
         "description": "Solves mazes by viewing them as undirected, unweighted graphs, and then seeking the shortest path from the Entry to the Exit cell.",
         "year": 2017,
         "grade": 71,
-        "image": ""
+        "image": "https://i.imgur.com/V5LCTjn.png"
     },
     {
         "id": "p016",
@@ -136,8 +134,7 @@
         "name": "Monster Evolution",
         "description": "This assignment involved creating a text game in C++ with the description:\n\nYou have woken up in a strange dungeon. It is full of weird monsters that you are able to catch and look after! You will wander the dungeon, finding monsters and evolving them into more powerful and special versions of themselves. Can you evolve a monster that you can fight against the evil boss that guards the exit of the dungeon?",
         "year": 2016,
-        "grade": 87,
-        "image": ""
+        "grade": 87
     },
     {
         "id": "p018",
@@ -152,14 +149,16 @@
         "name": "Pascal's Triangle",
         "description": "A recursive program that takes as input a non-negative integer n and prints out the first n + 1 rows of Pascal’s triangle.",
         "year": 2016,
-        "grade": 92
+        "grade": 92,
+        "image": "https://i.imgur.com/pI3OuqZ.png"
     },
     {
         "id": "p020",
         "type": "Project",
         "name": "Prime Factors",
         "description": "A Python program which factorizes the number after the 100 prime numbers less than a given N.",
-        "year": 2018
+        "year": 2018,
+        "image": "https://i.imgur.com/I6LjYPh.png"
     },
     {
         "id": "p021",
@@ -181,7 +180,7 @@
         "name": "Speed Grocer",
         "description": "A simple grocery list app. I had ideas for it, but never got around to making the app any more useful than Google Keep already is.",
         "year": 2018,
-        "image": ""
+        "image": "https://i.imgur.com/p61GhMr.jpg"
     },
     {
         "id": "p024",
@@ -204,7 +203,7 @@
         "name": "Time Spent Away from Desk Dashboard",
         "description": "This was a dashboard built using PowerBI and data I had manually logged to show how much time I had spent at my desk, and how much time I had spent doing other things throughout the length of my IBL placement at Monash eSolutions.",
         "year": 2018,
-        "image": ""
+        "image": "https://i.imgur.com/Y6lJrVl.png"
     },
     {
         "id": "p027",
@@ -228,7 +227,7 @@
         "description": "For an assignment, I had to make a website for a band. Fortunately, my friend was in a band called Wax Lyrical for some reason. Using an open-source template, I applied the band's artwork and information to the page and used some basic JavaScript functionality.",
         "year": 2017,
         "grade": 80,
-        "image": ""
+        "image": "https://i.imgur.com/xv0xt4C.png"
     },
     {
         "id": "p030",
