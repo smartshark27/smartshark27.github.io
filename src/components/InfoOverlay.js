@@ -19,8 +19,7 @@ export default function InfoOverlay(props) {
     return (
         <Container style={dynamicStyle}>
             <CommonProperties selectedNode={props.selectedNode} />
-            <ProjectPropertiesDiv selectedNode={props.selectedNode} />
-            <TechnologyProperties selectedNode={props.selectedNode} />
+            <TypeProperties selectedNode={props.selectedNode} />
         </Container>
     )
 }
@@ -61,6 +60,17 @@ function CommonProperties(props) {
             <p>{props.selectedNode.description}</p>
         </>
     )
+}
+
+function TypeProperties(props) {
+    console.log(props.selectedNode.type);
+    if (props.selectedNode.type === "Project") {
+        return <ProjectPropertiesDiv selectedNode={props.selectedNode} />
+    } else if (props.selectedNode.type === "Technology") {
+        return <TechnologyProperties selectedNode={props.selectedNode} />
+    } else {
+        return null;
+    }
 }
 
 function ProjectPropertiesDiv(props) {
@@ -117,7 +127,7 @@ function Link(props) {
         return (
             <>
                 <Box>{displayName + ":"}</Box>
-                <a href={property}>{property}</a>
+                <a href={property} target="_blank" rel="noopener noreferrer">{property} </a>
                 <p />
             </>
         )
@@ -132,7 +142,9 @@ function Image(props) {
     } else {
         return (
             <>
-                <img src={property} alt={altText} width={"100%"} />
+                <a href={property} target="_blank" rel="noopener noreferrer">
+                    <img src={property} alt={altText} width={"100%"} />
+                </a>
                 <p />
             </>
         )
