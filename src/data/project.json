@@ -250,7 +250,7 @@
         "type": "Project",
         "name": "Payments Digital Banking Service",
         "description": "Using Go, we are building a cloud-based backend payment service which forwards single and scheduled payment requests to the on-premises payment systems at ANZ.",
-        "year": 2019
+        "year": 2020
     },
     {
         "id": "p033",
@@ -260,5 +260,19 @@
         "year": 2019,
         "code": "https://github.com/smartshark27/smartshark27.github.io",
         "image": "https://i.imgur.com/d2HkwLM.png"
+    },
+    {
+        "id": "p034",
+        "type": "Project",
+        "name": "Workflow Engine Exploration",
+        "description": "The task of finding and testing out a few workflow engines for ANZ. For the record, the one that looked the best was Uber Cadence.",
+        "year": 2019
+    },
+    {
+        "id": "p035",
+        "type": "Project",
+        "name": "Technology Business Architecture Dashboard",
+        "description": "A dashboard to show the business functions and technology architecture of ANZ's transformation. The idea was to replace a gigantic spreadsheet with something cool and interactive. Each business and technology would have a description and optionally some metrics. Sadly, the project was sort of abandoned, but I learnt a lot of cool things, and it inspired the creation of this website.",
+        "year": 2019
     }
 ]

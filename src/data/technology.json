@@ -614,5 +614,40 @@
         "name": "Cloud SQL",
         "description": "Cloud database management service",
         "skillLevel": 1
+    },
+    {
+        "id": "t093",
+        "type": "Technology",
+        "name": "gRPC",
+        "description": "High performance RPC framework",
+        "skillLevel": 1
+    },
+    {
+        "id": "t094",
+        "type": "Technology",
+        "name": "Protocol Buffers",
+        "description": "Google's method of serializing structured data",
+        "skillLevel": 1
+    },
+    {
+        "id": "t095",
+        "type": "Technology",
+        "name": "Activiti",
+        "description": "Open source business process management engine",
+        "skillLevel": 1
+    },
+    {
+        "id": "t096",
+        "type": "Technology",
+        "name": "Alfresco Process Services",
+        "description": "Enterprise business process management solution",
+        "skillLevel": 1
+    },
+    {
+        "id": "t097",
+        "type": "Technology",
+        "name": "Cadence",
+        "description": "Workflow orchestration engine",
+        "skillLevel": 1
     }
 ]
