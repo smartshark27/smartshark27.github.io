@@ -207,7 +207,7 @@
         "type": "Technology",
         "name": "Go",
         "description": "Programming language",
-        "skillLevel": 1
+        "skillLevel": 2
     },
     {
         "id": "t032",
@@ -249,7 +249,7 @@
         "type": "Technology",
         "name": "Gradle",
         "description": "Build automation tool",
-        "skillLevel": 1
+        "skillLevel": 3
     },
     {
         "id": "t038",
@@ -431,7 +431,7 @@
         "type": "Technology",
         "name": "mountebank",
         "description": "API stubbing tool",
-        "skillLevel": 1
+        "skillLevel": 2
     },
     {
         "id": "t066",
@@ -649,5 +649,61 @@
         "name": "Cadence",
         "description": "Workflow orchestration engine",
         "skillLevel": 1
+    },
+    {
+        "id": "t098",
+        "type": "Technology",
+        "name": "LaunchDarkly",
+        "description": "Feature flag and toggle management tool",
+        "skillLevel": 1
+    },
+    {
+        "id": "t099",
+        "type": "Technology",
+        "name": "Sysl",
+        "description": "System specification language",
+        "skillLevel": 2
+    },
+    {
+        "id": "t100",
+        "type": "Technology",
+        "name": "PlantUML",
+        "description": "Text language to create UML diagrams",
+        "skillLevel": 2
+    },
+    {
+        "id": "t101",
+        "type": "Technology",
+        "name": "ForgeRock",
+        "description": "Identity and access management software",
+        "skillLevel": 1
+    },
+    {
+        "id": "t102",
+        "type": "Technology",
+        "name": "Spock",
+        "description": "Java testing framework",
+        "skillLevel": 1
+    },
+    {
+        "id": "t103",
+        "type": "Technology",
+        "name": "Checkstyle",
+        "description": "Static code analyis tool for Java",
+        "skillLevel": 1
+    },
+    {
+        "id": "t104",
+        "type": "Technology",
+        "name": "Spotless",
+        "description": "Code scanner and formatter",
+        "skillLevel": 2
+    },
+    {
+        "id": "t105",
+        "type": "Technology",
+        "name": "Artifactory",
+        "description": "Universal repository manager",
+        "skillLevel": 2
     }
 ]

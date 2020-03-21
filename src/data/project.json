@@ -35,7 +35,7 @@
         "name": "Click the Ball",
         "description": "A friend of mine who was studying design asked me how to make an object on a webpage jump away from the user whenever they tried to click it. Within an hour or so, I had written a simple HTML webpage with minimal embedded JavaScript which contained two elements: a red circle representing a ball, and the text, 'Click the ball'. And sure enough the ball would bounce away from the mouse. It could go off the page and over the text.",
         "year": 2018,
-        "link": "https://i.imgur.com/b1Vwej3.png"
+        "image": "https://i.imgur.com/b1Vwej3.png"
     },
     {
         "id": "p006",
@@ -274,5 +274,59 @@
         "name": "Technology Business Architecture Dashboard",
         "description": "A dashboard to show the business functions and technology architecture of ANZ's transformation. The idea was to replace a gigantic spreadsheet with something cool and interactive. Each business and technology would have a description and optionally some metrics. Sadly, the project was sort of abandoned, but I learnt a lot of cool things, and it inspired the creation of this website.",
         "year": 2019
+    },
+    {
+        "id": "p036",
+        "type": "Project",
+        "name": "Feature Toggle Service",
+        "description": "A proof of concept API to manage the state of features in applications. Was developed for the identity service platform at ANZ with the capability of being usable by other applications. This was sadly never used because of the option to use a vendor product instead.",
+        "year": 2020
+    },
+    {
+        "id": "p037",
+        "type": "Project",
+        "name": "ForgeRock Setup",
+        "description": "The setup of ForgeRock identity platform at ANZ. I've been involved in repository setup, CI pipelines and testing.",
+        "year": 2020
+    },
+    {
+        "id": "p038",
+        "type": "Project",
+        "name": "Cube",
+        "description": "A visualisation where clicking the screen spawns a square which moves and grows.",
+        "year": 2020,
+        "code": "https://github.com/smartshark27/cube",
+        "website": "https://smartshark27.github.io/cube/",
+        "image": "https://i.imgur.com/fiPfiEE.png"
+    },
+    {
+        "id": "p039",
+        "type": "Project",
+        "name": "Circles",
+        "description": "A visualisation where clicking the screen spawns a circle which grows until it fills the screen.",
+        "year": 2020,
+        "code": "https://github.com/smartshark27/circles",
+        "website": "https://smartshark27.github.io/circles/",
+        "image": "https://i.imgur.com/G7nTaf4.png"
+    },
+    {
+        "id": "p040",
+        "type": "Project",
+        "name": "Snakey",
+        "description": "Classic snake game made using nothing but SVG elements and JavaScript.",
+        "year": 2020,
+        "code": "https://github.com/smartshark27/snakey",
+        "website": "https://smartshark27.github.io/snakey/",
+        "image": "https://i.imgur.com/938Wj9a.png"
+    },
+    {
+        "id": "p041",
+        "type": "Project",
+        "name": "Corona",
+        "description": "An artistic and probably not very helpful visualisation made from Coronavirus data.",
+        "year": 2020,
+        "code": "https://github.com/smartshark27/corona",
+        "website": "https://smartshark27.github.io/corona/",
+        "image": "https://i.imgur.com/WExtplG.png"
     }
 ]

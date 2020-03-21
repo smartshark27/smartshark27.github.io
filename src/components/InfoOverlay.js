@@ -81,6 +81,7 @@ function ProjectPropertiesDiv(props) {
         <>
             <OneLineProperty displayName="Year" property={sn.year} />
             <OneLineProperty displayName="Grade" property={grade} />
+            <Link displayName="Website" property={sn.website} />
             <Link displayName="Source Code" property={sn.code} />
             <Image altText={altText} property={sn.image} />
         </>
