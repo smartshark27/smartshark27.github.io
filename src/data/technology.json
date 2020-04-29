@@ -88,7 +88,7 @@
         "type": "Technology",
         "name": "Bash",
         "description": "Unix shell and command language",
-        "skillLevel": 2
+        "skillLevel": 3
     },
     {
         "id": "t014",
@@ -172,7 +172,7 @@
         "type": "Technology",
         "name": "Docker",
         "description": "Container platform",
-        "skillLevel": 2
+        "skillLevel": 3
     },
     {
         "id": "t027",
@@ -193,14 +193,14 @@
         "type": "Technology",
         "name": "Git",
         "description": "Version control system",
-        "skillLevel": 2
+        "skillLevel": 3
     },
     {
         "id": "t030",
         "type": "Technology",
         "name": "GitHub",
         "description": "Version control repository hosting service",
-        "skillLevel": 2
+        "skillLevel": 3
     },
     {
         "id": "t031",
@@ -263,7 +263,7 @@
         "type": "Technology",
         "name": "Groovy",
         "description": "Programming language",
-        "skillLevel": 3
+        "skillLevel": 2
     },
     {
         "id": "t040",
@@ -277,7 +277,7 @@
         "type": "Technology",
         "name": "HTML",
         "description": "Hypertext markup language",
-        "skillLevel": 2
+        "skillLevel": 3
     },
     {
         "id": "t043",
@@ -361,14 +361,14 @@
         "type": "Technology",
         "name": "macOS",
         "description": "Operating system",
-        "skillLevel": 2
+        "skillLevel": 3
     },
     {
         "id": "t056",
         "type": "Technology",
         "name": "Material-UI",
         "description": "React UI framework",
-        "skillLevel": 1
+        "skillLevel": 2
     },
     {
         "id": "t057",
@@ -389,14 +389,14 @@
         "type": "Technology",
         "name": "Microsoft Outlook",
         "description": "Personal information manager",
-        "skillLevel": 2
+        "skillLevel": 3
     },
     {
         "id": "t060",
         "type": "Technology",
         "name": "Microsoft Paint",
         "description": "Raster graphics editor",
-        "skillLevel": 2
+        "skillLevel": 3
     },
     {
         "id": "t061",
@@ -431,7 +431,7 @@
         "type": "Technology",
         "name": "mountebank",
         "description": "API stubbing tool",
-        "skillLevel": 2
+        "skillLevel": 3
     },
     {
         "id": "t066",
@@ -445,14 +445,14 @@
         "type": "Technology",
         "name": "Node.js",
         "description": "JavaScript runtime environment",
-        "skillLevel": 2
+        "skillLevel": 3
     },
     {
         "id": "t068",
         "type": "Technology",
         "name": "npm",
         "description": "JavaScript package manager",
-        "skillLevel": 2
+        "skillLevel": 3
     },
     {
         "id": "t069",
@@ -473,7 +473,7 @@
         "type": "Technology",
         "name": "Postman",
         "description": "API development environment",
-        "skillLevel": 2
+        "skillLevel": 3
     },
     {
         "id": "t072",
@@ -501,7 +501,7 @@
         "type": "Technology",
         "name": "React",
         "description": "JavaScript UI library",
-        "skillLevel": 1
+        "skillLevel": 2
     },
     {
         "id": "t076",
@@ -564,7 +564,7 @@
         "type": "Technology",
         "name": "Visual Studio Code",
         "description": "IDE",
-        "skillLevel": 2
+        "skillLevel": 3
     },
     {
         "id": "t086",
@@ -606,7 +606,7 @@
         "type": "Technology",
         "name": "Cloud Build",
         "description": "Build executor for Google Cloud infrastructure",
-        "skillLevel": 1
+        "skillLevel": 2
     },
     {
         "id": "t092",
@@ -683,21 +683,21 @@
         "type": "Technology",
         "name": "Spock",
         "description": "Java testing framework",
-        "skillLevel": 1
+        "skillLevel": 2
     },
     {
         "id": "t103",
         "type": "Technology",
         "name": "Checkstyle",
         "description": "Static code analyis tool for Java",
-        "skillLevel": 1
+        "skillLevel": 2
     },
     {
         "id": "t104",
         "type": "Technology",
         "name": "Spotless",
         "description": "Code scanner and formatter",
-        "skillLevel": 2
+        "skillLevel": 3
     },
     {
         "id": "t105",
@@ -705,5 +705,40 @@
         "name": "Artifactory",
         "description": "Universal repository manager",
         "skillLevel": 2
+    },
+    {
+        "id": "t106",
+        "type": "Technology",
+        "name": "Terraform",
+        "description": "Open-source infrastructure as code software tool",
+        "skillLevel": 2
+    },
+    {
+        "id": "t107",
+        "type": "Technology",
+        "name": "Helm",
+        "description": "Helps manage Kubernetes applications using charts.",
+        "skillLevel": 0
+    },
+    {
+        "id": "t108",
+        "type": "Technology",
+        "name": "OpenTelemetry",
+        "description": "Provides a single set of APIs, libraries, agents, and collector services to capture distributed traces and metrics from an application.",
+        "skillLevel": 0
+    },
+    {
+        "id": "t109",
+        "type": "Technology",
+        "name": "SLF4j",
+        "description": "Simple Logging Facade for Java.",
+        "skillLevel": 2
+    },
+    {
+        "id": "t110",
+        "type": "Technology",
+        "name": "Skaffold",
+        "description": "Handles the workflow for building, pushing and deploying an application.",
+        "skillLevel": 0
     }
 ]

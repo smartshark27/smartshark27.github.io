@@ -328,5 +328,32 @@
         "code": "https://github.com/smartshark27/corona",
         "website": "https://smartshark27.github.io/corona/",
         "image": "https://i.imgur.com/WExtplG.png"
+    },
+    {
+        "id": "p042",
+        "type": "Project",
+        "name": "GitHub Enterprise to GitHub.com Migration",
+        "description": "A bit of a tedious task involving moving all the team's repositories to GitHub.com so that we could access them from home.",
+        "year": 2020
+    },
+    {
+        "id": "p043",
+        "type": "Project",
+        "name": "Phuzzle",
+        "description": "A multiplayer coop puzzle game that involves placing phones together to match a pattern.",
+        "year": 2020,
+        "code": "https://github.com/smartshark27/phuzzle",
+        "website": "https://smartshark27.github.io/phuzzle/",
+        "image": "https://i.imgur.com/YFyyGcx.png"
+    },
+    {
+        "id": "p044",
+        "type": "Project",
+        "name": "Flat-Footy",
+        "description": "A top-down turn-based footy game.",
+        "year": 2020,
+        "code": "https://github.com/smartshark27/flat-footy",
+        "website": "https://smartshark27.github.io/flat-footy/",
+        "image": "https://i.imgur.com/fBEHLWg.png"
     }
 ]
