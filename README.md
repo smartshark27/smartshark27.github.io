@@ -6,8 +6,9 @@ https://smartshark27.github.io/
 
 ## Pushing to GitHub Pages
 
-1. Make changes to source branch and commit.
+1. Make changes to source branch.
 1. Deploy to GitHub pages. `npm run deploy`
+1. Commit changes.
 1. Switch to master. `git checkout master`
 1. Merge changes from source. `git merge source`
 1. Push changes. `git push`
