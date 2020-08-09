@@ -263,7 +263,7 @@
         "type": "Technology",
         "name": "Groovy",
         "description": "Programming language",
-        "skillLevel": 2
+        "skillLevel": 3
     },
     {
         "id": "t040",
@@ -375,7 +375,7 @@
         "type": "Technology",
         "name": "Maven",
         "description": "Build automation tool",
-        "skillLevel": 1
+        "skillLevel": 2
     },
     {
         "id": "t058",
@@ -674,9 +674,9 @@
     {
         "id": "t101",
         "type": "Technology",
-        "name": "ForgeRock",
-        "description": "Identity and access management software",
-        "skillLevel": 1
+        "name": "ForgeRock Identity Gateway",
+        "description": "API security gateway",
+        "skillLevel": 3
     },
     {
         "id": "t102",
@@ -725,7 +725,7 @@
         "type": "Technology",
         "name": "OpenTelemetry",
         "description": "Provides a single set of APIs, libraries, agents, and collector services to capture distributed traces and metrics from an application.",
-        "skillLevel": 0
+        "skillLevel": 1
     },
     {
         "id": "t109",
@@ -739,6 +739,76 @@
         "type": "Technology",
         "name": "Skaffold",
         "description": "Handles the workflow for building, pushing and deploying an application.",
-        "skillLevel": 0
+        "skillLevel": 1
+    },
+    {
+        "id": "t111",
+        "type": "Technology",
+        "name": "ForgeRock Identity Manager",
+        "description": "Identity manager",
+        "skillLevel": 2
+    },
+    {
+        "id": "t112",
+        "type": "Technology",
+        "name": "ForgeRock Access Manager",
+        "description": "Access manager",
+        "skillLevel": 1
+    },
+    {
+        "id": "t113",
+        "type": "Technology",
+        "name": "ForgeRock Directory Services",
+        "description": "Identity data store",
+        "skillLevel": 1
+    },
+    {
+        "id": "t114",
+        "type": "Technology",
+        "name": "Daon IdentityX",
+        "description": "Trusted Identity Platform",
+        "skillLevel": 1
+    },
+    {
+        "id": "t115",
+        "type": "Technology",
+        "name": "OSGi",
+        "description": "Modular Java framework",
+        "skillLevel": 1
+    },
+    {
+        "id": "t116",
+        "type": "Technology",
+        "name": "Jest",
+        "description": "JavaScript testing framework",
+        "skillLevel": 1
+    },
+    {
+        "id": "t117",
+        "type": "Technology",
+        "name": "pytest",
+        "description": "Python testing framework",
+        "skillLevel": 1
+    },
+    {
+        "id": "t118",
+        "type": "Technology",
+        "name": "Cloud Logging",
+        "description": "Log Analyser",
+        "skillLevel": 2
+    },
+    {
+        "id": "t119",
+        "type": "Technology",
+        "name": "JaCoCo",
+        "description": "Java Code Coverage Tool",
+        "skillLevel": 3
+    },
+    {
+        "id": "t120",
+        "type": "Technology",
+        "name": "Sonarqube",
+        "description": "Continuous Code Quality Inspection",
+        "skillLevel": 2
     }
 ]

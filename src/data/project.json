@@ -285,8 +285,8 @@
     {
         "id": "p037",
         "type": "Project",
-        "name": "ForgeRock Setup",
-        "description": "The setup of ForgeRock identity platform at ANZ. I've been involved in repository setup, CI pipelines and testing.",
+        "name": "Identity Services Development Tools Setup",
+        "description": "The setup of development tools for the new identity platform at ANZ. We used Gradle for JAR building, unit tests and linting. CI was modified to publish coverage reports to a Sonarqube server.",
         "year": 2020
     },
     {
@@ -355,5 +355,29 @@
         "code": "https://github.com/smartshark27/flat-footy",
         "website": "https://smartshark27.github.io/flat-footy/",
         "image": "https://i.imgur.com/fBEHLWg.png"
+    },
+    {
+        "id": "p045",
+        "type": "Project",
+        "name": "Identity Services API Development",
+        "description": "Developing APIs for the new identity platform at ANZ, including device registration and pin verification.",
+        "year": 2020
+    },
+    {
+        "id": "p046",
+        "type": "Project",
+        "name": "Identity Services Logging Framework",
+        "description": "Development of a logging framework for the new identity platform at ANZ. Using SLF4J and Logstash Logback Encoder, we were able to add common logging functionality to all ForgeRock components and Daon IdentityX. The resulting JSON logs could be easily searched and analysed by GCP Logs Viewer.",
+        "year": 2020
+    },
+    {
+        "id": "p047",
+        "type": "Project",
+        "name": "Drunkopoly",
+        "description": "A terrible digital version of a terrible drinking board game. Fun to play with friends during the lockdown of 2020.",
+        "year": 2020,
+        "code": "https://github.com/smartshark27/drunkopoly",
+        "website": "https://smartshark27.github.io/drunkopoly",
+        "image": "https://i.imgur.com/bolWMbE.png"
     }
 ]
