@@ -18,40 +18,51 @@ export default class App extends React.Component {
       windowHeight: 0,
       data: {
         nodes: allNodes,
-        links: allLinks
+        links: allLinks,
       },
-      selectedNode: null
+      selectedNode: null,
     };
     this.updateWindowDimensions = this.updateWindowDimensions.bind(this);
     this.updateNodesAndLinks = this.updateNodesAndLinks.bind(this);
     this.handleNodeClick = this.handleNodeClick.bind(this);
     this.handleHomeButtonClick = this.handleHomeButtonClick.bind(this);
     this.handleBackgroundClick = this.handleBackgroundClick.bind(this);
-    this.fg = React.createRef()
+    this.fg = React.createRef();
   }
 
   handleNodeClick(selectedNode) {
-    const links = allLinks.filter(link => {
-      return link.source.id === selectedNode.id || link.target.id === selectedNode.id
-    })
-    const nodes = allNodes.filter(node => {
-      return node.id === selectedNode.id || links.reduce((isIn, curr) => {
-        return isIn || node.id === curr.source.id || node.id === curr.target.id;
-      }, false);
-    })
+    const links = allLinks.filter((link) => {
+      return (
+        link.source.id === selectedNode.id || link.target.id === selectedNode.id
+      );
+    });
+    const nodes = allNodes.filter((node) => {
+      return (
+        node.id === selectedNode.id ||
+        links.reduce((isIn, curr) => {
+          return (
+            isIn || node.id === curr.source.id || node.id === curr.target.id
+          );
+        }, false)
+      );
+    });
     this.updateNodesAndLinks(selectedNode, nodes, links);
-    this.fg.current.centerAt(selectedNode.x, selectedNode.y, 1000)
-    this.fg.current.zoom(3, 1000)
+    this.fg.current.centerAt(selectedNode.x, selectedNode.y, 1000);
+    this.fg.current.zoom(3, 1000);
   }
 
   handleHomeButtonClick() {
     this.updateNodesAndLinks(null, allNodes, allLinks);
-    this.fg.current.centerAt(0, 0, 1000)
-    this.fg.current.zoom(1, 1000)
+    this.fg.current.centerAt(0, 0, 1000);
+    this.fg.current.zoom(1, 1000);
   }
 
   handleBackgroundClick() {
-    this.updateNodesAndLinks(null, this.state.data.nodes, this.state.data.links)
+    this.updateNodesAndLinks(
+      null,
+      this.state.data.nodes,
+      this.state.data.links
+    );
   }
 
   updateNodesAndLinks(selectedNode, nodes, links) {
@@ -71,11 +82,11 @@ export default class App extends React.Component {
 
   componentDidMount() {
     this.updateWindowDimensions();
-    window.addEventListener('resize', this.updateWindowDimensions);
+    window.addEventListener("resize", this.updateWindowDimensions);
   }
 
   componentWillUnmount() {
-    window.removeEventListener('resize', this.updateWindowDimensions);
+    window.removeEventListener("resize", this.updateWindowDimensions);
   }
 
   render() {
