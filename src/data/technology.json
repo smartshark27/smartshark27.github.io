@@ -1,779 +1,786 @@
 [
-    {
-        "id": "adobeFlashProfessional",
-        "type": "Technology",
-        "name": "Adobe Flash Professional",
-        "description": "Multimedia development software",
-        "skillLevel": 1
-    },
-    {
-        "id": "adobeIllustrator",
-        "type": "Technology",
-        "name": "Adobe Illustrator",
-        "description": "Vector graphics editor",
-        "skillLevel": 2
-    },
-    {
-        "id": "adobePhotoshop",
-        "type": "Technology",
-        "name": "Adobe Photoshop",
-        "description": "Raster graphics editor",
-        "skillLevel": 1
-    },
-    {
-        "id": "amazonRedshift",
-        "type": "Technology",
-        "name": "Amazon Redshift",
-        "description": "Cloud data warehouse",
-        "skillLevel": 1
-    },
-    {
-        "id": "amazonWebServices",
-        "type": "Technology",
-        "name": "Amazon Web Services",
-        "description": "Cloud computing services suite",
-        "skillLevel": 1
-    },
-    {
-        "id": "android",
-        "type": "Technology",
-        "name": "Android",
-        "description": "Mobile operating system",
-        "skillLevel": 3
-    },
-    {
-        "id": "androidStudio",
-        "type": "Technology",
-        "name": "Android Studio",
-        "description": "Android IDE",
-        "skillLevel": 2
-    },
-    {
-        "id": "apacheSpark",
-        "type": "Technology",
-        "name": "Apache Spark",
-        "description": "Cluster computing framework",
-        "skillLevel": 2
-    },
-    {
-        "id": "assemblyLanguage",
-        "type": "Technology",
-        "name": "Assembly Language",
-        "description": "Low-level programming language",
-        "skillLevel": 2
-    },
-    {
-        "id": "autodesk3dsMax",
-        "type": "Technology",
-        "name": "Autodesk 3ds Max",
-        "description": "3D graphics and animation program",
-        "skillLevel": 1
-    },
-    {
-        "id": "backbase",
-        "type": "Technology",
-        "name": "Backbase",
-        "description": "Omni-channel digital banking platform",
-        "skillLevel": 1
-    },
-    {
-        "id": "bash",
-        "type": "Technology",
-        "name": "Bash",
-        "description": "Unix shell and command language",
-        "skillLevel": 3
-    },
-    {
-        "id": "bitbucket",
-        "type": "Technology",
-        "name": "Bitbucket",
-        "description": "Version control repository hosting service",
-        "skillLevel": 1
-    },
-    {
-        "id": "bigQuery",
-        "type": "Technology",
-        "name": "BigQuery",
-        "description": "Cloud analytics data warehouse",
-        "skillLevel": 2
-    },
-    {
-        "id": "c",
-        "type": "Technology",
-        "name": "C",
-        "description": "Programming language",
-        "skillLevel": 2
-    },
-    {
-        "id": "cPlusPlus",
-        "type": "Technology",
-        "name": "C++",
-        "description": "Programming language",
-        "skillLevel": 2
-    },
-    {
-        "id": "cSharp",
-        "type": "Technology",
-        "name": "C#",
-        "description": "Programming language",
-        "skillLevel": 2
-    },
-    {
-        "id": "cloudPubSub",
-        "type": "Technology",
-        "name": "Cloud Pub/Sub",
-        "description": "Real-time messaging cloud service",
-        "skillLevel": 2
-    },
-    {
-        "id": "clouderaDataScienceWorkbench",
-        "type": "Technology",
-        "name": "Cloudera Data Science Workbench",
-        "description": "Data science platform",
-        "skillLevel": 2
-    },
-    {
-        "id": "commandPrompt",
-        "type": "Technology",
-        "name": "Command Prompt",
-        "description": "Windows command line interpreter",
-        "skillLevel": 2
-    },
-    {
-        "id": "confluence",
-        "type": "Technology",
-        "name": "Confluence",
-        "description": "Cloud content collaboration software",
-        "skillLevel": 3
-    },
-    {
-        "id": "css",
-        "type": "Technology",
-        "name": "CSS",
-        "description": "Stylesheet language",
-        "skillLevel": 1
-    },
-    {
-        "id": "cypher",
-        "type": "Technology",
-        "name": "Cypher",
-        "description": "Graph query language",
-        "skillLevel": 2
-    },
-    {
-        "id": "docker",
-        "type": "Technology",
-        "name": "Docker",
-        "description": "Container platform",
-        "skillLevel": 3
-    },
-    {
-        "id": "eclipse",
-        "type": "Technology",
-        "name": "Eclipse",
-        "description": "IDE",
-        "skillLevel": 1
-    },
-    {
-        "id": "gimp",
-        "type": "Technology",
-        "name": "GIMP",
-        "description": "Raster graphics editor",
-        "skillLevel": 2
-    },
-    {
-        "id": "git",
-        "type": "Technology",
-        "name": "Git",
-        "description": "Version control system",
-        "skillLevel": 3
-    },
-    {
-        "id": "github",
-        "type": "Technology",
-        "name": "GitHub",
-        "description": "Version control repository hosting service",
-        "skillLevel": 3
-    },
-    {
-        "id": "go",
-        "type": "Technology",
-        "name": "Go",
-        "description": "Programming language",
-        "skillLevel": 2
-    },
-    {
-        "id": "googleChrome",
-        "type": "Technology",
-        "name": "Google Chrome",
-        "description": "Web browser",
-        "skillLevel": 2
-    },
-    {
-        "id": "googleCloudPlatform",
-        "type": "Technology",
-        "name": "Google Cloud Platform",
-        "description": "Cloud computing services suite",
-        "skillLevel": 2
-    },
-    {
-        "id": "googleDocs",
-        "type": "Technology",
-        "name": "Google Docs",
-        "description": "Cloud word processor",
-        "skillLevel": 3
-    },
-    {
-        "id": "googleSheets",
-        "type": "Technology",
-        "name": "Google Sheets",
-        "description": "Cloud spreadsheet software",
-        "skillLevel": 3
-    },
-    {
-        "id": "googleSlides",
-        "type": "Technology",
-        "name": "Google Slides",
-        "description": "Cloud presentation software",
-        "skillLevel": 2
-    },
-    {
-        "id": "gradle",
-        "type": "Technology",
-        "name": "Gradle",
-        "description": "Build automation tool",
-        "skillLevel": 3
-    },
-    {
-        "id": "graphQL",
-        "type": "Technology",
-        "name": "GraphQL",
-        "description": "Graph query language",
-        "skillLevel": 2
-    },
-    {
-        "id": "groovy",
-        "type": "Technology",
-        "name": "Groovy",
-        "description": "Programming language",
-        "skillLevel": 3
-    },
-    {
-        "id": "haskell",
-        "type": "Technology",
-        "name": "Haskell",
-        "description": "Functional programming language",
-        "skillLevel": 1
-    },
-    {
-        "id": "html",
-        "type": "Technology",
-        "name": "HTML",
-        "description": "Hypertext markup language",
-        "skillLevel": 3
-    },
-    {
-        "id": "inkscape",
-        "type": "Technology",
-        "name": "Inkscape",
-        "description": "Vector graphics editor",
-        "skillLevel": 2
-    },
-    {
-        "id": "intelliJ",
-        "type": "Technology",
-        "name": "IntelliJ",
-        "description": "IDE",
-        "skillLevel": 2
-    },
-    {
-        "id": "iOS",
-        "type": "Technology",
-        "name": "iOS",
-        "description": "Mobile operating system",
-        "skillLevel": 3
-    },
-    {
-        "id": "java",
-        "type": "Technology",
-        "name": "Java",
-        "description": "Programming language",
-        "skillLevel": 3
-    },
-    {
-        "id": "javaScript",
-        "type": "Technology",
-        "name": "JavaScript",
-        "description": "Scripting language",
-        "skillLevel": 3
-    },
-    {
-        "id": "jira",
-        "type": "Technology",
-        "name": "Jira",
-        "description": "Issue tracking software",
-        "skillLevel": 3
-    },
-    {
-        "id": "jUnit",
-        "type": "Technology",
-        "name": "JUnit",
-        "description": "Java Unit Testing Framework",
-        "skillLevel": 2
-    },
-    {
-        "id": "jQuery",
-        "type": "Technology",
-        "name": "jQuery",
-        "description": "JavaScript Library",
-        "skillLevel": 1
-    },
-    {
-        "id": "kubernetes",
-        "type": "Technology",
-        "name": "Kubernetes",
-        "description": "Container orchestration system",
-        "skillLevel": 2
-    },
-    {
-        "id": "linux",
-        "type": "Technology",
-        "name": "Linux",
-        "description": "Operating system",
-        "skillLevel": 1
-    },
-    {
-        "id": "macOS",
-        "type": "Technology",
-        "name": "macOS",
-        "description": "Operating system",
-        "skillLevel": 3
-    },
-    {
-        "id": "materialUI",
-        "type": "Technology",
-        "name": "Material-UI",
-        "description": "React UI framework",
-        "skillLevel": 2
-    },
-    {
-        "id": "maven",
-        "type": "Technology",
-        "name": "Maven",
-        "description": "Build automation tool",
-        "skillLevel": 3
-    },
-    {
-        "id": "microsoftExcel",
-        "type": "Technology",
-        "name": "Microsoft Excel",
-        "description": "Spreadsheet software",
-        "skillLevel": 2
-    },
-    {
-        "id": "microsoftPaint",
-        "type": "Technology",
-        "name": "Microsoft Paint",
-        "description": "Raster graphics editor",
-        "skillLevel": 3
-    },
-    {
-        "id": "microsoftPowerBI",
-        "type": "Technology",
-        "name": "Microsoft Power BI",
-        "description": "Interactive data visualisation software",
-        "skillLevel": 2
-    },
-    {
-        "id": "microsoftPowerPoint",
-        "type": "Technology",
-        "name": "Microsoft PowerPoint",
-        "description": "Presentation software",
-        "skillLevel": 3
-    },
-    {
-        "id": "microsoftWindows",
-        "type": "Technology",
-        "name": "Microsoft Windows",
-        "description": "Operating system",
-        "skillLevel": 3
-    },
-    {
-        "id": "microsoftWord",
-        "type": "Technology",
-        "name": "Microsoft Word",
-        "description": "Word processor",
-        "skillLevel": 3
-    },
-    {
-        "id": "mountebank",
-        "type": "Technology",
-        "name": "mountebank",
-        "description": "API stubbing tool",
-        "skillLevel": 3
-    },
-    {
-        "id": "neo4j",
-        "type": "Technology",
-        "name": "Neo4j",
-        "description": "Graph database platform",
-        "skillLevel": 2
-    },
-    {
-        "id": "nodeJS",
-        "type": "Technology",
-        "name": "Node.js",
-        "description": "JavaScript runtime environment",
-        "skillLevel": 3
-    },
-    {
-        "id": "npm",
-        "type": "Technology",
-        "name": "npm",
-        "description": "Node.js package manager",
-        "skillLevel": 3
-    },
-    {
-        "id": "oracleDataIntegrator",
-        "type": "Technology",
-        "name": "Oracle Data Integrator",
-        "description": "Extract, load and transform tool",
-        "skillLevel": 2
-    },
-    {
-        "id": "oracleSQLDeveloper",
-        "type": "Technology",
-        "name": "Oracle SQL Developer",
-        "description": "IDE for Oracle SQL databases",
-        "skillLevel": 2
-    },
-    {
-        "id": "postman",
-        "type": "Technology",
-        "name": "Postman",
-        "description": "API development environment",
-        "skillLevel": 3
-    },
-    {
-        "id": "processing",
-        "type": "Technology",
-        "name": "processing",
-        "description": "Graphical library",
-        "skillLevel": 2
-    },
-    {
-        "id": "python",
-        "type": "Technology",
-        "name": "Python",
-        "description": "Programming language",
-        "skillLevel": 3
-    },
-    {
-        "id": "r",
-        "type": "Technology",
-        "name": "R",
-        "description": "Programming language for statistical computing",
-        "skillLevel": 1
-    },
-    {
-        "id": "react",
-        "type": "Technology",
-        "name": "React",
-        "description": "JavaScript UI library",
-        "skillLevel": 2
-    },
-    {
-        "id": "scala",
-        "type": "Technology",
-        "name": "Scala",
-        "description": "Programming language",
-        "skillLevel": 2
-    },
-    {
-        "id": "sql",
-        "type": "Technology",
-        "name": "SQL",
-        "description": "Data query language",
-        "skillLevel": 3
-    },
-    {
-        "id": "tableau",
-        "type": "Technology",
-        "name": "Tableau",
-        "description": "Interactive data visualisation software",
-        "skillLevel": 2
-    },
-    {
-        "id": "typeScript",
-        "type": "Technology",
-        "name": "TypeScript",
-        "description": "Programming language",
-        "skillLevel": 1
-    },
-    {
-        "id": "ubuntu",
-        "type": "Technology",
-        "name": "Ubuntu",
-        "description": "Operating system",
-        "skillLevel": 1
-    },
-    {
-        "id": "virtualBox",
-        "type": "Technology",
-        "name": "VirtualBox",
-        "description": "x86 virtualizer",
-        "skillLevel": 1
-    },
-    {
-        "id": "visualStudio",
-        "type": "Technology",
-        "name": "Visual Studio",
-        "description": "IDE",
-        "skillLevel": 1
-    },
-    {
-        "id": "visualStudioCode",
-        "type": "Technology",
-        "name": "Visual Studio Code",
-        "description": "IDE",
-        "skillLevel": 3
-    },
-    {
-        "id": "webGL",
-        "type": "Technology",
-        "name": "WebGL",
-        "description": "Web graphics library",
-        "skillLevel": 2
-    },
-    {
-        "id": "xml",
-        "type": "Technology",
-        "name": "XML",
-        "description": "Markup language",
-        "skillLevel": 2
-    },
-    {
-        "id": "yarn",
-        "type": "Technology",
-        "name": "Yarn",
-        "description": "Package manager",
-        "skillLevel": 1
-    },
-    {
-        "id": "postgreSQL",
-        "type": "Technology",
-        "name": "PostgreSQL",
-        "description": "Relational database management system",
-        "skillLevel": 2
-    },
-    {
-        "id": "cloudSpanner",
-        "type": "Technology",
-        "name": "Cloud Spanner",
-        "description": "Scalable distributed cloud database service",
-        "skillLevel": 1
-    },
-    {
-        "id": "cloudBuild",
-        "type": "Technology",
-        "name": "Cloud Build",
-        "description": "Build executor for Google Cloud infrastructure",
-        "skillLevel": 2
-    },
-    {
-        "id": "cloudSQL",
-        "type": "Technology",
-        "name": "Cloud SQL",
-        "description": "Cloud database management service",
-        "skillLevel": 1
-    },
-    {
-        "id": "gRPC",
-        "type": "Technology",
-        "name": "gRPC",
-        "description": "High performance RPC framework",
-        "skillLevel": 1
-    },
-    {
-        "id": "protocolBuffers",
-        "type": "Technology",
-        "name": "Protocol Buffers",
-        "description": "Google's method of serializing structured data",
-        "skillLevel": 1
-    },
-    {
-        "id": "activiti",
-        "type": "Technology",
-        "name": "Activiti",
-        "description": "Open source business process management engine",
-        "skillLevel": 1
-    },
-    {
-        "id": "alfrescoProcessServices",
-        "type": "Technology",
-        "name": "Alfresco Process Services",
-        "description": "Enterprise business process management solution",
-        "skillLevel": 1
-    },
-    {
-        "id": "cadence",
-        "type": "Technology",
-        "name": "Cadence",
-        "description": "Workflow orchestration engine",
-        "skillLevel": 0
-    },
-    {
-        "id": "launchDarkly",
-        "type": "Technology",
-        "name": "LaunchDarkly",
-        "description": "Feature flag and toggle management tool",
-        "skillLevel": 2
-    },
-    {
-        "id": "sysl",
-        "type": "Technology",
-        "name": "Sysl",
-        "description": "System specification language",
-        "skillLevel": 2
-    },
-    {
-        "id": "plantUML",
-        "type": "Technology",
-        "name": "PlantUML",
-        "description": "Text language to create UML diagrams",
-        "skillLevel": 2
-    },
-    {
-        "id": "forgeRockIdentityGateway",
-        "type": "Technology",
-        "name": "ForgeRock Identity Gateway",
-        "description": "API security gateway",
-        "skillLevel": 3
-    },
-    {
-        "id": "spock",
-        "type": "Technology",
-        "name": "Spock",
-        "description": "Java testing framework",
-        "skillLevel": 2
-    },
-    {
-        "id": "checkstyle",
-        "type": "Technology",
-        "name": "Checkstyle",
-        "description": "Static code analyis tool for Java",
-        "skillLevel": 2
-    },
-    {
-        "id": "spotless",
-        "type": "Technology",
-        "name": "Spotless",
-        "description": "Code scanner and formatter",
-        "skillLevel": 3
-    },
-    {
-        "id": "artifactory",
-        "type": "Technology",
-        "name": "Artifactory",
-        "description": "Universal repository manager",
-        "skillLevel": 2
-    },
-    {
-        "id": "terraform",
-        "type": "Technology",
-        "name": "Terraform",
-        "description": "Open-source infrastructure as code software tool",
-        "skillLevel": 2
-    },
-    {
-        "id": "openTelemetry",
-        "type": "Technology",
-        "name": "OpenTelemetry",
-        "description": "Provides a single set of APIs, libraries, agents, and collector services to capture distributed traces and metrics from an application.",
-        "skillLevel": 1
-    },
-    {
-        "id": "slf4j",
-        "type": "Technology",
-        "name": "SLF4j",
-        "description": "Simple Logging Facade for Java.",
-        "skillLevel": 2
-    },
-    {
-        "id": "skaffold",
-        "type": "Technology",
-        "name": "Skaffold",
-        "description": "Handles the workflow for building, pushing and deploying an application.",
-        "skillLevel": 1
-    },
-    {
-        "id": "forgeRockIdentityManager",
-        "type": "Technology",
-        "name": "ForgeRock Identity Manager",
-        "description": "Identity manager",
-        "skillLevel": 2
-    },
-    {
-        "id": "forgeRockAccessManager",
-        "type": "Technology",
-        "name": "ForgeRock Access Manager",
-        "description": "Access manager",
-        "skillLevel": 1
-    },
-    {
-        "id": "forgeRockDirectoryServices",
-        "type": "Technology",
-        "name": "ForgeRock Directory Services",
-        "description": "Identity data store",
-        "skillLevel": 1
-    },
-    {
-        "id": "daonIdentityX",
-        "type": "Technology",
-        "name": "Daon IdentityX",
-        "description": "Trusted Identity Platform",
-        "skillLevel": 1
-    },
-    {
-        "id": "osgi",
-        "type": "Technology",
-        "name": "OSGi",
-        "description": "Modular Java framework",
-        "skillLevel": 1
-    },
-    {
-        "id": "jest",
-        "type": "Technology",
-        "name": "Jest",
-        "description": "JavaScript testing framework",
-        "skillLevel": 1
-    },
-    {
-        "id": "pytest",
-        "type": "Technology",
-        "name": "pytest",
-        "description": "Python testing framework",
-        "skillLevel": 1
-    },
-    {
-        "id": "cloudLogging",
-        "type": "Technology",
-        "name": "Cloud Logging",
-        "description": "Log Analyser",
-        "skillLevel": 2
-    },
-    {
-        "id": "jaCoCo",
-        "type": "Technology",
-        "name": "JaCoCo",
-        "description": "Java Code Coverage Tool",
-        "skillLevel": 3
-    },
-    {
-        "id": "sonarqube",
-        "type": "Technology",
-        "name": "Sonarqube",
-        "description": "Continuous Code Quality Inspection",
-        "skillLevel": 2
-    }
+  {
+    "id": "activiti",
+    "type": "Technology",
+    "name": "Activiti",
+    "description": "Open source business process management engine",
+    "skillLevel": 1
+  },
+  {
+    "id": "adobeFlashProfessional",
+    "type": "Technology",
+    "name": "Adobe Flash Professional",
+    "description": "Multimedia development software",
+    "skillLevel": 1
+  },
+  {
+    "id": "adobeIllustrator",
+    "type": "Technology",
+    "name": "Adobe Illustrator",
+    "description": "Vector graphics editor",
+    "skillLevel": 2
+  },
+  {
+    "id": "adobePhotoshop",
+    "type": "Technology",
+    "name": "Adobe Photoshop",
+    "description": "Raster graphics editor",
+    "skillLevel": 1
+  },
+  {
+    "id": "alfrescoProcessServices",
+    "type": "Technology",
+    "name": "Alfresco Process Services",
+    "description": "Enterprise business process management solution",
+    "skillLevel": 1
+  },
+  {
+    "id": "amazonRedshift",
+    "type": "Technology",
+    "name": "Amazon Redshift",
+    "description": "Cloud data warehouse",
+    "skillLevel": 1
+  },
+  {
+    "id": "amazonWebServices",
+    "type": "Technology",
+    "name": "Amazon Web Services",
+    "description": "Cloud computing services suite",
+    "skillLevel": 1
+  },
+  {
+    "id": "android",
+    "type": "Technology",
+    "name": "Android",
+    "description": "Mobile operating system",
+    "skillLevel": 3
+  },
+  {
+    "id": "androidStudio",
+    "type": "Technology",
+    "name": "Android Studio",
+    "description": "Android IDE",
+    "skillLevel": 2
+  },
+  {
+    "id": "apacheSpark",
+    "type": "Technology",
+    "name": "Apache Spark",
+    "description": "Cluster computing framework",
+    "skillLevel": 2
+  },
+  {
+    "id": "artifactory",
+    "type": "Technology",
+    "name": "Artifactory",
+    "description": "Universal repository manager",
+    "skillLevel": 2
+  },
+  {
+    "id": "assemblyLanguage",
+    "type": "Technology",
+    "name": "Assembly Language",
+    "description": "Low-level programming language",
+    "skillLevel": 2
+  },
+  {
+    "id": "autodesk3dsMax",
+    "type": "Technology",
+    "name": "Autodesk 3ds Max",
+    "description": "3D graphics and animation program",
+    "skillLevel": 1
+  },
+  {
+    "id": "backbase",
+    "type": "Technology",
+    "name": "Backbase",
+    "description": "Omni-channel digital banking platform",
+    "skillLevel": 1
+  },
+  {
+    "id": "bash",
+    "type": "Technology",
+    "name": "Bash",
+    "description": "Unix shell and command language",
+    "skillLevel": 3
+  },
+  {
+    "id": "bigQuery",
+    "type": "Technology",
+    "name": "BigQuery",
+    "description": "Cloud analytics data warehouse",
+    "skillLevel": 2
+  },
+  {
+    "id": "bitbucket",
+    "type": "Technology",
+    "name": "Bitbucket",
+    "description": "Version control repository hosting service",
+    "skillLevel": 1
+  },
+  {
+    "id": "bpmn",
+    "type": "Technology",
+    "name": "BPMN",
+    "description": "Business Process Model and Notation",
+    "skillLevel": 1
+  },
+  {
+    "id": "c",
+    "type": "Technology",
+    "name": "C",
+    "description": "Programming language",
+    "skillLevel": 2
+  },
+  {
+    "id": "cPlusPlus",
+    "type": "Technology",
+    "name": "C++",
+    "description": "Programming language",
+    "skillLevel": 2
+  },
+  {
+    "id": "cSharp",
+    "type": "Technology",
+    "name": "C#",
+    "description": "Programming language",
+    "skillLevel": 2
+  },
+  {
+    "id": "cadence",
+    "type": "Technology",
+    "name": "Cadence",
+    "description": "Workflow orchestration engine",
+    "skillLevel": 0
+  },
+  {
+    "id": "checkstyle",
+    "type": "Technology",
+    "name": "Checkstyle",
+    "description": "Static code analyis tool for Java",
+    "skillLevel": 2
+  },
+  {
+    "id": "cloudBuild",
+    "type": "Technology",
+    "name": "Cloud Build",
+    "description": "Build executor for Google Cloud infrastructure",
+    "skillLevel": 2
+  },
+  {
+    "id": "cloudLogging",
+    "type": "Technology",
+    "name": "Cloud Logging",
+    "description": "Log Analyser",
+    "skillLevel": 2
+  },
+  {
+    "id": "cloudPubSub",
+    "type": "Technology",
+    "name": "Cloud Pub/Sub",
+    "description": "Real-time messaging cloud service",
+    "skillLevel": 2
+  },
+  {
+    "id": "cloudSQL",
+    "type": "Technology",
+    "name": "Cloud SQL",
+    "description": "Cloud database management service",
+    "skillLevel": 1
+  },
+  {
+    "id": "cloudSpanner",
+    "type": "Technology",
+    "name": "Cloud Spanner",
+    "description": "Scalable distributed cloud database service",
+    "skillLevel": 1
+  },
+  {
+    "id": "clouderaDataScienceWorkbench",
+    "type": "Technology",
+    "name": "Cloudera Data Science Workbench",
+    "description": "Data science platform",
+    "skillLevel": 2
+  },
+  {
+    "id": "commandPrompt",
+    "type": "Technology",
+    "name": "Command Prompt",
+    "description": "Windows command line interpreter",
+    "skillLevel": 2
+  },
+  {
+    "id": "confluence",
+    "type": "Technology",
+    "name": "Confluence",
+    "description": "Cloud content collaboration software",
+    "skillLevel": 3
+  },
+  {
+    "id": "css",
+    "type": "Technology",
+    "name": "CSS",
+    "description": "Stylesheet language",
+    "skillLevel": 1
+  },
+  {
+    "id": "cypher",
+    "type": "Technology",
+    "name": "Cypher",
+    "description": "Graph query language",
+    "skillLevel": 2
+  },
+  {
+    "id": "daonIdentityX",
+    "type": "Technology",
+    "name": "Daon IdentityX",
+    "description": "Trusted Identity Platform",
+    "skillLevel": 1
+  },
+  {
+    "id": "docker",
+    "type": "Technology",
+    "name": "Docker",
+    "description": "Container platform",
+    "skillLevel": 3
+  },
+  {
+    "id": "eclipse",
+    "type": "Technology",
+    "name": "Eclipse",
+    "description": "IDE",
+    "skillLevel": 1
+  },
+  {
+    "id": "forgeRockAccessManager",
+    "type": "Technology",
+    "name": "ForgeRock Access Manager",
+    "description": "Access manager",
+    "skillLevel": 1
+  },
+  {
+    "id": "forgeRockDirectoryServices",
+    "type": "Technology",
+    "name": "ForgeRock Directory Services",
+    "description": "Identity data store",
+    "skillLevel": 1
+  },
+  {
+    "id": "forgeRockIdentityGateway",
+    "type": "Technology",
+    "name": "ForgeRock Identity Gateway",
+    "description": "API security gateway",
+    "skillLevel": 3
+  },
+  {
+    "id": "forgeRockIdentityManager",
+    "type": "Technology",
+    "name": "ForgeRock Identity Manager",
+    "description": "Identity manager",
+    "skillLevel": 2
+  },
+  {
+    "id": "gRPC",
+    "type": "Technology",
+    "name": "gRPC",
+    "description": "High performance RPC framework",
+    "skillLevel": 1
+  },
+  {
+    "id": "gimp",
+    "type": "Technology",
+    "name": "GIMP",
+    "description": "Raster graphics editor",
+    "skillLevel": 2
+  },
+  {
+    "id": "git",
+    "type": "Technology",
+    "name": "Git",
+    "description": "Version control system",
+    "skillLevel": 3
+  },
+  {
+    "id": "github",
+    "type": "Technology",
+    "name": "GitHub",
+    "description": "Version control repository hosting service",
+    "skillLevel": 3
+  },
+  {
+    "id": "go",
+    "type": "Technology",
+    "name": "Go",
+    "description": "Programming language",
+    "skillLevel": 2
+  },
+  {
+    "id": "googleChrome",
+    "type": "Technology",
+    "name": "Google Chrome",
+    "description": "Web browser",
+    "skillLevel": 2
+  },
+  {
+    "id": "googleCloudPlatform",
+    "type": "Technology",
+    "name": "Google Cloud Platform",
+    "description": "Cloud computing services suite",
+    "skillLevel": 2
+  },
+  {
+    "id": "googleDocs",
+    "type": "Technology",
+    "name": "Google Docs",
+    "description": "Cloud word processor",
+    "skillLevel": 3
+  },
+  {
+    "id": "googleSheets",
+    "type": "Technology",
+    "name": "Google Sheets",
+    "description": "Cloud spreadsheet software",
+    "skillLevel": 3
+  },
+  {
+    "id": "googleSlides",
+    "type": "Technology",
+    "name": "Google Slides",
+    "description": "Cloud presentation software",
+    "skillLevel": 2
+  },
+  {
+    "id": "gradle",
+    "type": "Technology",
+    "name": "Gradle",
+    "description": "Build automation tool",
+    "skillLevel": 3
+  },
+  {
+    "id": "graphQL",
+    "type": "Technology",
+    "name": "GraphQL",
+    "description": "Graph query language",
+    "skillLevel": 2
+  },
+  {
+    "id": "groovy",
+    "type": "Technology",
+    "name": "Groovy",
+    "description": "Programming language",
+    "skillLevel": 3
+  },
+  {
+    "id": "haskell",
+    "type": "Technology",
+    "name": "Haskell",
+    "description": "Functional programming language",
+    "skillLevel": 1
+  },
+  {
+    "id": "html",
+    "type": "Technology",
+    "name": "HTML",
+    "description": "Hypertext markup language",
+    "skillLevel": 3
+  },
+  {
+    "id": "iOS",
+    "type": "Technology",
+    "name": "iOS",
+    "description": "Mobile operating system",
+    "skillLevel": 3
+  },
+  {
+    "id": "inkscape",
+    "type": "Technology",
+    "name": "Inkscape",
+    "description": "Vector graphics editor",
+    "skillLevel": 2
+  },
+  {
+    "id": "intelliJ",
+    "type": "Technology",
+    "name": "IntelliJ",
+    "description": "IDE",
+    "skillLevel": 2
+  },
+  {
+    "id": "jQuery",
+    "type": "Technology",
+    "name": "jQuery",
+    "description": "JavaScript Library",
+    "skillLevel": 1
+  },
+  {
+    "id": "jUnit",
+    "type": "Technology",
+    "name": "JUnit",
+    "description": "Java Unit Testing Framework",
+    "skillLevel": 2
+  },
+  {
+    "id": "jaCoCo",
+    "type": "Technology",
+    "name": "JaCoCo",
+    "description": "Java Code Coverage Tool",
+    "skillLevel": 3
+  },
+  {
+    "id": "java",
+    "type": "Technology",
+    "name": "Java",
+    "description": "Programming language",
+    "skillLevel": 3
+  },
+  {
+    "id": "javaScript",
+    "type": "Technology",
+    "name": "JavaScript",
+    "description": "Scripting language",
+    "skillLevel": 3
+  },
+  {
+    "id": "jest",
+    "type": "Technology",
+    "name": "Jest",
+    "description": "JavaScript testing framework",
+    "skillLevel": 1
+  },
+  {
+    "id": "jira",
+    "type": "Technology",
+    "name": "Jira",
+    "description": "Issue tracking software",
+    "skillLevel": 3
+  },
+  {
+    "id": "kubernetes",
+    "type": "Technology",
+    "name": "Kubernetes",
+    "description": "Container orchestration system",
+    "skillLevel": 2
+  },
+  {
+    "id": "launchDarkly",
+    "type": "Technology",
+    "name": "LaunchDarkly",
+    "description": "Feature flag and toggle management tool",
+    "skillLevel": 2
+  },
+  {
+    "id": "linux",
+    "type": "Technology",
+    "name": "Linux",
+    "description": "Operating system",
+    "skillLevel": 1
+  },
+  {
+    "id": "macOS",
+    "type": "Technology",
+    "name": "macOS",
+    "description": "Operating system",
+    "skillLevel": 3
+  },
+  {
+    "id": "materialUI",
+    "type": "Technology",
+    "name": "Material-UI",
+    "description": "React UI framework",
+    "skillLevel": 2
+  },
+  {
+    "id": "maven",
+    "type": "Technology",
+    "name": "Maven",
+    "description": "Build automation tool",
+    "skillLevel": 3
+  },
+  {
+    "id": "microsoftExcel",
+    "type": "Technology",
+    "name": "Microsoft Excel",
+    "description": "Spreadsheet software",
+    "skillLevel": 2
+  },
+  {
+    "id": "microsoftPaint",
+    "type": "Technology",
+    "name": "Microsoft Paint",
+    "description": "Raster graphics editor",
+    "skillLevel": 3
+  },
+  {
+    "id": "microsoftPowerBI",
+    "type": "Technology",
+    "name": "Microsoft Power BI",
+    "description": "Interactive data visualisation software",
+    "skillLevel": 2
+  },
+  {
+    "id": "microsoftPowerPoint",
+    "type": "Technology",
+    "name": "Microsoft PowerPoint",
+    "description": "Presentation software",
+    "skillLevel": 3
+  },
+  {
+    "id": "microsoftWindows",
+    "type": "Technology",
+    "name": "Microsoft Windows",
+    "description": "Operating system",
+    "skillLevel": 3
+  },
+  {
+    "id": "microsoftWord",
+    "type": "Technology",
+    "name": "Microsoft Word",
+    "description": "Word processor",
+    "skillLevel": 3
+  },
+  {
+    "id": "mountebank",
+    "type": "Technology",
+    "name": "mountebank",
+    "description": "API stubbing tool",
+    "skillLevel": 3
+  },
+  {
+    "id": "neo4j",
+    "type": "Technology",
+    "name": "Neo4j",
+    "description": "Graph database platform",
+    "skillLevel": 2
+  },
+  {
+    "id": "nodeJS",
+    "type": "Technology",
+    "name": "Node.js",
+    "description": "JavaScript runtime environment",
+    "skillLevel": 3
+  },
+  {
+    "id": "npm",
+    "type": "Technology",
+    "name": "npm",
+    "description": "Node.js package manager",
+    "skillLevel": 3
+  },
+  {
+    "id": "openTelemetry",
+    "type": "Technology",
+    "name": "OpenTelemetry",
+    "description": "Provides a single set of APIs, libraries, agents, and collector services to capture distributed traces and metrics from an application.",
+    "skillLevel": 1
+  },
+  {
+    "id": "oracleDataIntegrator",
+    "type": "Technology",
+    "name": "Oracle Data Integrator",
+    "description": "Extract, load and transform tool",
+    "skillLevel": 2
+  },
+  {
+    "id": "oracleSQLDeveloper",
+    "type": "Technology",
+    "name": "Oracle SQL Developer",
+    "description": "IDE for Oracle SQL databases",
+    "skillLevel": 2
+  },
+  {
+    "id": "osgi",
+    "type": "Technology",
+    "name": "OSGi",
+    "description": "Modular Java framework",
+    "skillLevel": 1
+  },
+  {
+    "id": "plantUML",
+    "type": "Technology",
+    "name": "PlantUML",
+    "description": "Text language to create UML diagrams",
+    "skillLevel": 2
+  },
+  {
+    "id": "postgreSQL",
+    "type": "Technology",
+    "name": "PostgreSQL",
+    "description": "Relational database management system",
+    "skillLevel": 2
+  },
+  {
+    "id": "postman",
+    "type": "Technology",
+    "name": "Postman",
+    "description": "API development environment",
+    "skillLevel": 3
+  },
+  {
+    "id": "processing",
+    "type": "Technology",
+    "name": "processing",
+    "description": "Graphical library",
+    "skillLevel": 2
+  },
+  {
+    "id": "protocolBuffers",
+    "type": "Technology",
+    "name": "Protocol Buffers",
+    "description": "Google's method of serializing structured data",
+    "skillLevel": 1
+  },
+  {
+    "id": "pytest",
+    "type": "Technology",
+    "name": "pytest",
+    "description": "Python testing framework",
+    "skillLevel": 1
+  },
+  {
+    "id": "python",
+    "type": "Technology",
+    "name": "Python",
+    "description": "Programming language",
+    "skillLevel": 3
+  },
+  {
+    "id": "r",
+    "type": "Technology",
+    "name": "R",
+    "description": "Programming language for statistical computing",
+    "skillLevel": 1
+  },
+  {
+    "id": "react",
+    "type": "Technology",
+    "name": "React",
+    "description": "JavaScript UI library",
+    "skillLevel": 2
+  },
+  {
+    "id": "scala",
+    "type": "Technology",
+    "name": "Scala",
+    "description": "Programming language",
+    "skillLevel": 2
+  },
+  {
+    "id": "skaffold",
+    "type": "Technology",
+    "name": "Skaffold",
+    "description": "Handles the workflow for building, pushing and deploying an application.",
+    "skillLevel": 1
+  },
+  {
+    "id": "slf4j",
+    "type": "Technology",
+    "name": "SLF4j",
+    "description": "Simple Logging Facade for Java.",
+    "skillLevel": 2
+  },
+  {
+    "id": "sonarqube",
+    "type": "Technology",
+    "name": "Sonarqube",
+    "description": "Continuous Code Quality Inspection",
+    "skillLevel": 2
+  },
+  {
+    "id": "spock",
+    "type": "Technology",
+    "name": "Spock",
+    "description": "Java testing framework",
+    "skillLevel": 2
+  },
+  {
+    "id": "spotless",
+    "type": "Technology",
+    "name": "Spotless",
+    "description": "Code scanner and formatter",
+    "skillLevel": 3
+  },
+  {
+    "id": "sql",
+    "type": "Technology",
+    "name": "SQL",
+    "description": "Data query language",
+    "skillLevel": 3
+  },
+  {
+    "id": "sysl",
+    "type": "Technology",
+    "name": "Sysl",
+    "description": "System specification language",
+    "skillLevel": 2
+  },
+  {
+    "id": "tableau",
+    "type": "Technology",
+    "name": "Tableau",
+    "description": "Interactive data visualisation software",
+    "skillLevel": 2
+  },
+  {
+    "id": "terraform",
+    "type": "Technology",
+    "name": "Terraform",
+    "description": "Open-source infrastructure as code software tool",
+    "skillLevel": 2
+  },
+  {
+    "id": "typeScript",
+    "type": "Technology",
+    "name": "TypeScript",
+    "description": "Programming language",
+    "skillLevel": 1
+  },
+  {
+    "id": "ubuntu",
+    "type": "Technology",
+    "name": "Ubuntu",
+    "description": "Operating system",
+    "skillLevel": 1
+  },
+  {
+    "id": "virtualBox",
+    "type": "Technology",
+    "name": "VirtualBox",
+    "description": "x86 virtualizer",
+    "skillLevel": 1
+  },
+  {
+    "id": "visualStudio",
+    "type": "Technology",
+    "name": "Visual Studio",
+    "description": "IDE",
+    "skillLevel": 1
+  },
+  {
+    "id": "visualStudioCode",
+    "type": "Technology",
+    "name": "Visual Studio Code",
+    "description": "IDE",
+    "skillLevel": 3
+  },
+  {
+    "id": "webGL",
+    "type": "Technology",
+    "name": "WebGL",
+    "description": "Web graphics library",
+    "skillLevel": 2
+  },
+  {
+    "id": "xml",
+    "type": "Technology",
+    "name": "XML",
+    "description": "Markup language",
+    "skillLevel": 2
+  },
+  {
+    "id": "yarn",
+    "type": "Technology",
+    "name": "Yarn",
+    "description": "Package manager",
+    "skillLevel": 1
+  }
 ]

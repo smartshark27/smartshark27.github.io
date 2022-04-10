@@ -1,373 +1,387 @@
 [
-    {
-        "id": "3dEarthWithSatellites",
-        "type": "Project",
-        "name": "3d Earth with Satellites",
-        "description": "The outcome of this assignment was an interactive globe with the current position of GPS satellites. The user can rotate the globe and click on a satellite to display the satellite name. The globe is textured and shows the current daylight area. The goal was to apply interactive three-dimensional transformations and coordinate systems, 3D rendering, shading, texture mapping and shader programming.",
-        "year": 2018,
-        "grade": 90
-    },
-    {
-        "id": "asxDataPipeline",
-        "type": "Project",
-        "name": "ASX Data Pipeline",
-        "description": "Automate the collection of Australian Stock Exchange related data to be used for analysis. Mostly written in node.js for deployment in Google Cloud.\n\nDiscontinued to properly rethink how to do this in a way that automatically analyses the data and does something about it. Also, Google Sheets data can be up to 20 minutes delayed, which is not even close to being competitive.",
-        "year": 2019
-    },
-    {
-        "id": "backbaseIntegrationTesting",
-        "type": "Project",
-        "name": "Backbase Integration Testing",
-        "description": "A couple of weeks spent API and QA testing the implementation and integration of the Backbase platform using Postman.",
-        "year": 2019
-    },
-    {
-        "id": "battleshipsAI",
-        "type": "Project",
-        "name": "Battleships AI",
-        "description": "The outcome of this assignment was to write an algorithm that was as efficient as possible in sinking ships in a game of Battleship. The code was written in Haskel and the efficiency was ranked against other students.",
-        "year": 2017,
-        "grade": 75
-    },
-    {
-        "id": "clickTheBall",
-        "type": "Project",
-        "name": "Click the Ball",
-        "description": "A friend of mine who was studying design asked me how to make an object on a webpage jump away from the user whenever they tried to click it. Within an hour or so, I had written a simple HTML webpage with minimal embedded JavaScript which contained two elements: a red circle representing a ball, and the text, 'Click the ball'. And sure enough the ball would bounce away from the mouse. It could go off the page and over the text.",
-        "year": 2018,
-        "image": "https://i.imgur.com/b1Vwej3.png"
-    },
-    {
-        "id": "commandLineInterpreter",
-        "type": "Project",
-        "name": "Command Line Interpreter",
-        "description": "The objective of this assignment was to implement a reduced version of a CLI program that has the similar functionality of the Unix/Linux shell. The program was implemented on the Unix/Linux operating system using the C programming language with certain Unix commands.",
-        "year": 2017,
-        "grade": 85
-    },
-    {
-        "id": "diagramEditor",
-        "type": "Project",
-        "name": "Diagram Editor",
-        "description": "In this assignment, I used an Observable stream created earlier in the unit to create a basic SVG diagram editor.",
-        "year": 2017,
-        "grade": 83,
-        "image": "https://i.imgur.com/SQ0hYC8.png"
-    },
-    {
-        "id": "editDistanceBetweenTwoStrings",
-        "type": "Project",
-        "name": "Edit Distance Between Two Strings",
-        "description": "The edit distance between two strings is the minimum number of edit operations (insertions, deletions, substitutions) required to transform one string into the other. Given some text txt[1..n] and a pattern pat[1..m], this program identifies all positions within txt[1..n] that matches the pat[1..m] within an Edit distance <= 1.",
-        "year": 2018,
-        "grade": 86
-    },
-    {
-        "id": "hashTable",
-        "type": "Project",
-        "name": "Hash Table",
-        "description": "Hash table implementation which uses Linear Probing to resolve collisions.",
-        "year": 2016,
-        "grade": 100
-    },
-    {
-        "id": "kruskalMinimumWeightSpanningTree",
-        "type": "Project",
-        "name": "Kruskal Minimum Weight Spanning Tree",
-        "description": "This assignment involved implementing Kruskal’s Minimum-weight Spanning Tree (MST) algorithm using the union-by-rank and find-using-path-compression operations.",
-        "year": 2018,
-        "grade": 86
-    },
-    {
-        "id": "lzssEncoderDecoder",
-        "type": "Project",
-        "name": "LZSS Encoder Decoder",
-        "description": "This assignment involved implementing an encoder and decoder for the Lempel-Ziv-Storer-Szymanski (LZSS) variation of the LZ77 algorithm.",
-        "year": 2019,
-        "grade": 69
-    },
-    {
-        "id": "magicSquareChecker",
-        "type": "Project",
-        "name": "Magic Square Checker",
-        "description": "Given a square of numbers, calculates whether the square satisfies the properties to be a 'magic square'. This was my first ever asssignment, but probably has more nested if statements than any other.",
-        "year": 2016,
-        "grade": 86,
-        "image": "https://i.imgur.com/xrCoGA2.png"
-    },
-    {
-        "id": "mapTransformer",
-        "type": "Project",
-        "name": "Map Transformer",
-        "description": "The outcome of this assignment is an interactive world map displaying continental outlines. The user can adjust the map projection (which triggers an animation), and the coordinate under the current cursor position is displayed.",
-        "year": 2018,
-        "grade": 95
-    },
-    {
-        "id": "matrixDeterminant",
-        "type": "Project",
-        "name": "Matrix Determinant",
-        "description": "The outcome of this assignment was to write a Python program to compute the determinant of a given square matrix. The program accepts an N x N matrix as a comma separated file, checks if the matrix is square, and if yes: computes the matrix determinant using the permutation method, and outputs the determinant as the answer.",
-        "year": 2016,
-        "grade": 38
-    },
-    {
-        "id": "mazeSolver",
-        "type": "Project",
-        "name": "Maze Solver",
-        "description": "Solves mazes by viewing them as undirected, unweighted graphs, and then seeking the shortest path from the Entry to the Exit cell.",
-        "year": 2017,
-        "grade": 71,
-        "image": "https://i.imgur.com/V5LCTjn.png"
-    },
-    {
-        "id": "foodDatabase",
-        "type": "Project",
-        "name": "Food Database",
-        "description": "This assignment involved writing the SQL to initialize a database for the mock client Monash Food.",
-        "year": 2017,
-        "grade": 80
-    },
-    {
-        "id": "monsterEvolution",
-        "type": "Project",
-        "name": "Monster Evolution",
-        "description": "This assignment involved creating a text game in C++ with the description:\n\nYou have woken up in a strange dungeon. It is full of weird monsters that you are able to catch and look after! You will wander the dungeon, finding monsters and evolving them into more powerful and special versions of themselves. Can you evolve a monster that you can fight against the evil boss that guards the exit of the dungeon?",
-        "year": 2016,
-        "grade": 87
-    },
-    {
-        "id": "odiFileToTableETLBuilder",
-        "type": "Project",
-        "name": "ODI File to Table ETL Builder",
-        "description": "This task involved writing a script that automatically created SQL schemas and the Oracle Data Integrator (ODI) workflows to populate them by reading a simple CSV configuration file.",
-        "year": 2018
-    },
-    {
-        "id": "pascalsTriangle",
-        "type": "Project",
-        "name": "Pascal's Triangle",
-        "description": "A recursive program that takes as input a non-negative integer n and prints out the first n + 1 rows of Pascal’s triangle.",
-        "year": 2016,
-        "grade": 92,
-        "image": "https://i.imgur.com/pI3OuqZ.png"
-    },
-    {
-        "id": "primeFactors",
-        "type": "Project",
-        "name": "Prime Factors",
-        "description": "A Python program which factorizes the number after the 100 prime numbers less than a given N.",
-        "year": 2018,
-        "image": "https://i.imgur.com/I6LjYPh.png"
-    },
-    {
-        "id": "processScheduleMethods",
-        "type": "Project",
-        "name": "Process Schedule Methods",
-        "description": "The aim of this assignment was to implement and simulate the performance of three different schedule algorithms. The algorithms were First-Come-First-Served, Round Robin and Shortest Remaining Time.",
-        "year": 2017
-    },
-    {
-        "id": "powershellDowngradeAttackDetection",
-        "type": "Project",
-        "name": "Powershell Downgrade Attack Detection",
-        "description": "A Scala script which finds cases of when a computer runs an older (insecure) version of PowerShell. This algorithm is run against all monitored ANZ computers everyday.",
-        "year": 2019
-    },
-    {
-        "id": "speedGrocer",
-        "type": "Project",
-        "name": "Speed Grocer",
-        "description": "A simple grocery list app. I had ideas for it, but never got around to making the app any more useful than Google Keep already is.",
-        "year": 2018,
-        "image": "https://i.imgur.com/p61GhMr.jpg"
-    },
-    {
-        "id": "starWars",
-        "type": "Project",
-        "name": "Star Wars",
-        "description": "A text-based 'roguelike' game set in the Star Wars universe. As it stood, the game functioned but was missing a lot of desired functionality. Over the course of the project, working with a partner, we incrementally added new features to the game.",
-        "year": 2017,
-        "grade": 75
-    },
-    {
-        "id": "threatIndicatorDetection",
-        "type": "Project",
-        "name": "Threat Indicator Detection",
-        "description": "A Spark program written in Scala which matched threat data against internal systems at ANZ. This was run everyday and uncovered a few threats. When it was built, it just matched dangerous URLs, but it was going to be expanded to search for dangerous emails and attachments.",
-        "year": 2019
-    },
-    {
-        "id": "timeSpentAwayFromDeskDashboard",
-        "type": "Project",
-        "name": "Time Spent Away from Desk Dashboard",
-        "description": "This was a dashboard built using PowerBI and data I had manually logged to show how much time I had spent at my desk, and how much time I had spent doing other things throughout the length of my IBL placement at Monash eSolutions.",
-        "year": 2018,
-        "image": "https://i.imgur.com/Y6lJrVl.png"
-    },
-    {
-        "id": "totalWar",
-        "type": "Project",
-        "name": "Total War",
-        "description": "The aim of this assignment was to implement a computer-based variant of the card game War. This is a two-player card game played with a standard deck of cards in which the aim of the game is to capture all cards in the deck. When one player has all 52 cards, the game is over.",
-        "year": 2016,
-        "grade": 90
-    },
-    {
-        "id": "twitterSentimentAnalyser",
-        "type": "Project",
-        "name": "Twitter Sentiment Analyser",
-        "description": "A simple Python program which applied a sentiment analyser library to Twitter data searched using a given search string. I later used a Node.js variant in my ASX Data Analysis project.",
-        "year": 2019
-    },
-    {
-        "id": "waxLyricalWebsite",
-        "type": "Project",
-        "name": "Wax Lyrical Website",
-        "description": "For an assignment, I had to make a website for a band. Fortunately, my friend was in a band called Wax Lyrical for some reason. Using an open-source template, I applied the band's artwork and information to the page and used some basic JavaScript functionality.",
-        "year": 2017,
-        "grade": 80,
-        "image": "https://i.imgur.com/xv0xt4C.png"
-    },
-    {
-        "id": "wirelessSensorNetwork",
-        "type": "Project",
-        "name": "Wireless Sensor Network",
-        "description": "This assignment required using the MPI C libraries to simulate the operation of a wireless sensor network. It had to send the least amount of messages as possible to the other nodes",
-        "year": 2018,
-        "grade": 76
-    },
-    {
-        "id": "wordGraph",
-        "type": "Project",
-        "name": "Word Graph",
-        "description": "This assignment was to write a Python program that built a special graph from a dictionary of English words. Given a list of 5 letter workds, it would build a graph where every word was a node. It would create edges between words that could be transformed into each other by editing one letter.",
-        "year": 2017,
-        "grade": 71
-    },
-    {
-        "id": "paymentsDigitalBankService",
-        "type": "Project",
-        "name": "Payments Digital Banking Service",
-        "description": "Using Go, we are building a cloud-based backend payment service which forwards single and scheduled payment requests to the on-premises payment systems at ANZ.",
-        "year": 2020
-    },
-    {
-        "id": "interactiveResume",
-        "type": "Project",
-        "name": "Interactive Resume",
-        "description": "A website showcasing all the technologies used, projects worked on, and how they're related.",
-        "year": 2019,
-        "code": "https://github.com/smartshark27/smartshark27.github.io",
-        "image": "https://i.imgur.com/d2HkwLM.png"
-    },
-    {
-        "id": "workflowEngineExploration",
-        "type": "Project",
-        "name": "Workflow Engine Exploration",
-        "description": "The task of finding and testing out a few workflow engines for ANZ. For the record, the one that looked the best was Uber Cadence.",
-        "year": 2019
-    },
-    {
-        "id": "technologyBusinessArchitectureDashboard",
-        "type": "Project",
-        "name": "Technology Business Architecture Dashboard",
-        "description": "A dashboard to show the business functions and technology architecture of ANZ's transformation. The idea was to replace a gigantic spreadsheet with something cool and interactive. Each business and technology would have a description and optionally some metrics. Sadly, the project was sort of abandoned, but I learnt a lot of cool things, and it inspired the creation of this website.",
-        "year": 2019
-    },
-    {
-        "id": "featureToggleService",
-        "type": "Project",
-        "name": "Feature Toggle Service",
-        "description": "A proof of concept API to manage the state of features in applications. Was developed for the identity service platform at ANZ with the capability of being usable by other applications. This was sadly never used because of the option to use a vendor product instead.",
-        "year": 2020
-    },
-    {
-        "id": "identityServicesDevelopmentToolsSetup",
-        "type": "Project",
-        "name": "Identity Services Development Tools Setup",
-        "description": "The setup of development tools for the new identity platform at ANZ. We used Gradle for JAR building, unit tests and linting. CI was modified to publish coverage reports to a Sonarqube server.",
-        "year": 2020
-    },
-    {
-        "id": "cube",
-        "type": "Project",
-        "name": "Cube",
-        "description": "A visualisation where clicking the screen spawns a square which moves and grows.",
-        "year": 2020,
-        "code": "https://github.com/smartshark27/cube",
-        "website": "https://smartshark27.github.io/cube/",
-        "image": "https://i.imgur.com/fiPfiEE.png"
-    },
-    {
-        "id": "circles",
-        "type": "Project",
-        "name": "Circles",
-        "description": "A visualisation where clicking the screen spawns a circle which grows until it fills the screen.",
-        "year": 2020,
-        "code": "https://github.com/smartshark27/circles",
-        "website": "https://smartshark27.github.io/circles/",
-        "image": "https://i.imgur.com/G7nTaf4.png"
-    },
-    {
-        "id": "snakey",
-        "type": "Project",
-        "name": "Snakey",
-        "description": "Classic snake game made using nothing but SVG elements and JavaScript.",
-        "year": 2020,
-        "code": "https://github.com/smartshark27/snakey",
-        "website": "https://smartshark27.github.io/snakey/",
-        "image": "https://i.imgur.com/938Wj9a.png"
-    },
-    {
-        "id": "gitHubMigration",
-        "type": "Project",
-        "name": "GitHub Enterprise to GitHub.com Migration",
-        "description": "A bit of a tedious task involving moving all the team's repositories to GitHub.com so that we could access them from home.",
-        "year": 2020
-    },
-    {
-        "id": "phuzzle",
-        "type": "Project",
-        "name": "Phuzzle",
-        "description": "A multiplayer coop puzzle game that involves placing phones together to match a pattern.",
-        "year": 2020,
-        "code": "https://github.com/smartshark27/phuzzle",
-        "website": "https://smartshark27.github.io/phuzzle/",
-        "image": "https://i.imgur.com/YFyyGcx.png"
-    },
-    {
-        "id": "flatFooty",
-        "type": "Project",
-        "name": "Flat-Footy",
-        "description": "A top-down turn-based footy game.",
-        "year": 2020,
-        "code": "https://github.com/smartshark27/flat-footy",
-        "website": "https://smartshark27.github.io/flat-footy/",
-        "image": "https://i.imgur.com/fBEHLWg.png"
-    },
-    {
-        "id": "identityServicesAPIDevelopment",
-        "type": "Project",
-        "name": "Identity Services API Development",
-        "description": "Developing APIs for the new identity platform at ANZ, including device registration and pin verification.",
-        "year": 2020
-    },
-    {
-        "id": "identityServicesLoggingFramework",
-        "type": "Project",
-        "name": "Identity Services Logging Framework",
-        "description": "Development of a logging framework for the new identity platform at ANZ. Using SLF4J and Logstash Logback Encoder, we were able to add common logging functionality to all ForgeRock components and Daon IdentityX. The resulting JSON logs could be easily searched and analysed by GCP Logs Viewer.",
-        "year": 2020
-    },
-    {
-        "id": "drunkopoly",
-        "type": "Project",
-        "name": "Drunkopoly",
-        "description": "A terrible digital version of a terrible drinking board game. Fun to play with friends during the lockdown of 2020.",
-        "year": 2020,
-        "code": "https://github.com/smartshark27/drunkopoly",
-        "website": "https://smartshark27.github.io/drunkopoly",
-        "image": "https://i.imgur.com/bolWMbE.png"
-    }
+  {
+    "id": "3dEarthWithSatellites",
+    "type": "Project",
+    "name": "3d Earth with Satellites",
+    "description": "The outcome of this assignment was an interactive globe with the current position of GPS satellites. The user can rotate the globe and click on a satellite to display the satellite name. The globe is textured and shows the current daylight area. The goal was to apply interactive three-dimensional transformations and coordinate systems, 3D rendering, shading, texture mapping and shader programming.",
+    "year": 2018,
+    "grade": 90
+  },
+  {
+    "id": "asxDataPipeline",
+    "type": "Project",
+    "name": "ASX Data Pipeline",
+    "description": "Automate the collection of Australian Stock Exchange related data to be used for analysis. Mostly written in node.js for deployment in Google Cloud.\n\nDiscontinued to properly rethink how to do this in a way that automatically analyses the data and does something about it. Also, Google Sheets data can be up to 20 minutes delayed, which is not even close to being competitive.",
+    "year": 2019
+  },
+  {
+    "id": "backbaseIntegrationTesting",
+    "type": "Project",
+    "name": "Backbase Integration Testing",
+    "description": "A couple of weeks spent API and QA testing the implementation and integration of the Backbase platform using Postman.",
+    "year": 2019
+  },
+  {
+    "id": "battleshipsAI",
+    "type": "Project",
+    "name": "Battleships AI",
+    "description": "The outcome of this assignment was to write an algorithm that was as efficient as possible in sinking ships in a game of Battleship. The code was written in Haskel and the efficiency was ranked against other students.",
+    "year": 2017,
+    "grade": 75
+  },
+  {
+    "id": "circles",
+    "type": "Project",
+    "name": "Circles",
+    "description": "A visualisation where clicking the screen spawns a circle which grows until it fills the screen.",
+    "year": 2020,
+    "code": "https://github.com/smartshark27/circles",
+    "website": "https://smartshark27.github.io/circles/",
+    "image": "https://i.imgur.com/G7nTaf4.png"
+  },
+  {
+    "id": "clickTheBall",
+    "type": "Project",
+    "name": "Click the Ball",
+    "description": "A friend of mine who was studying design asked me how to make an object on a webpage jump away from the user whenever they tried to click it. Within an hour or so, I had written a simple HTML webpage with minimal embedded JavaScript which contained two elements: a red circle representing a ball, and the text, 'Click the ball'. And sure enough the ball would bounce away from the mouse. It could go off the page and over the text.",
+    "year": 2018,
+    "image": "https://i.imgur.com/b1Vwej3.png"
+  },
+  {
+    "id": "commandLineInterpreter",
+    "type": "Project",
+    "name": "Command Line Interpreter",
+    "description": "The objective of this assignment was to implement a reduced version of a CLI program that has the similar functionality of the Unix/Linux shell. The program was implemented on the Unix/Linux operating system using the C programming language with certain Unix commands.",
+    "year": 2017,
+    "grade": 85
+  },
+  {
+    "id": "cube",
+    "type": "Project",
+    "name": "Cube",
+    "description": "A visualisation where clicking the screen spawns a square which moves and grows.",
+    "year": 2020,
+    "code": "https://github.com/smartshark27/cube",
+    "website": "https://smartshark27.github.io/cube/",
+    "image": "https://i.imgur.com/fiPfiEE.png"
+  },
+  {
+    "id": "diagramEditor",
+    "type": "Project",
+    "name": "Diagram Editor",
+    "description": "In this assignment, I used an Observable stream created earlier in the unit to create a basic SVG diagram editor.",
+    "year": 2017,
+    "grade": 83,
+    "image": "https://i.imgur.com/SQ0hYC8.png"
+  },
+  {
+    "id": "drunkopoly",
+    "type": "Project",
+    "name": "Drunkopoly",
+    "description": "A terrible digital version of a terrible drinking board game. Fun to play with friends during the lockdown of 2020.",
+    "year": 2020,
+    "code": "https://github.com/smartshark27/drunkopoly",
+    "website": "https://smartshark27.github.io/drunkopoly",
+    "image": "https://i.imgur.com/bolWMbE.png"
+  },
+  {
+    "id": "editDistanceBetweenTwoStrings",
+    "type": "Project",
+    "name": "Edit Distance Between Two Strings",
+    "description": "The edit distance between two strings is the minimum number of edit operations (insertions, deletions, substitutions) required to transform one string into the other. Given some text txt[1..n] and a pattern pat[1..m], this program identifies all positions within txt[1..n] that matches the pat[1..m] within an Edit distance <= 1.",
+    "year": 2018,
+    "grade": 86
+  },
+  {
+    "id": "featureToggleService",
+    "type": "Project",
+    "name": "Feature Toggle Service",
+    "description": "A proof of concept API to manage the state of features in applications. Was developed for the identity service platform at ANZ with the capability of being usable by other applications. This was sadly never used because of the option to use a vendor product instead.",
+    "year": 2020
+  },
+  {
+    "id": "flatFooty",
+    "type": "Project",
+    "name": "Flat-Footy",
+    "description": "A top-down turn-based footy game.",
+    "year": 2020,
+    "code": "https://github.com/smartshark27/flat-footy",
+    "website": "https://smartshark27.github.io/flat-footy/",
+    "image": "https://i.imgur.com/fBEHLWg.png"
+  },
+  {
+    "id": "foodDatabase",
+    "type": "Project",
+    "name": "Food Database",
+    "description": "This assignment involved writing the SQL to initialize a database for the mock client Monash Food.",
+    "year": 2017,
+    "grade": 80
+  },
+  {
+    "id": "forgeRockCustomLoggingFramework",
+    "type": "Project",
+    "name": "ForgeRock Custom Logging Framework",
+    "description": "Development of a logging framework for the new identity platform at ANZ. Using SLF4J and Logstash Logback Encoder, we were able to add common logging functionality to all ForgeRock components. The resulting JSON logs could be easily searched and analysed by GCP Logs Viewer.",
+    "year": 2020
+  },
+  {
+    "id": "forgeRockCustomAuditFramework",
+    "type": "Project",
+    "name": "ForgeRock Custom Audit Framework",
+    "description": "Audit framework for emitting custom JSON audit events from ForgeRock AM and IDM.",
+    "year": 2021
+  },
+  {
+    "id": "gitHubMigration",
+    "type": "Project",
+    "name": "GitHub Enterprise to GitHub.com Migration",
+    "description": "A bit of a tedious task involving moving all the team's repositories to GitHub.com so that we could access them from home.",
+    "year": 2020
+  },
+  {
+    "id": "hashTable",
+    "type": "Project",
+    "name": "Hash Table",
+    "description": "Hash table implementation which uses Linear Probing to resolve collisions.",
+    "year": 2016,
+    "grade": 100
+  },
+  {
+    "id": "identityServicesAPIDevelopment",
+    "type": "Project",
+    "name": "Identity Services API Development",
+    "description": "Developing APIs for the new identity platform at ANZ, including device registration and pin verification.",
+    "year": 2020
+  },
+  {
+    "id": "identityServicesDevelopmentToolsSetup",
+    "type": "Project",
+    "name": "Identity Services Development Tools Setup",
+    "description": "The setup of development tools for the new identity platform at ANZ. We used Gradle for JAR building, unit tests and linting. CI was modified to publish coverage reports to a Sonarqube server.",
+    "year": 2020
+  },
+  {
+    "id": "interactiveResume",
+    "type": "Project",
+    "name": "Interactive Resume",
+    "description": "A website showcasing all the technologies used, projects worked on, and how they're related.",
+    "year": 2019,
+    "code": "https://github.com/smartshark27/smartshark27.github.io",
+    "image": "https://i.imgur.com/d2HkwLM.png"
+  },
+  {
+    "id": "kruskalMinimumWeightSpanningTree",
+    "type": "Project",
+    "name": "Kruskal Minimum Weight Spanning Tree",
+    "description": "This assignment involved implementing Kruskal’s Minimum-weight Spanning Tree (MST) algorithm using the union-by-rank and find-using-path-compression operations.",
+    "year": 2018,
+    "grade": 86
+  },
+  {
+    "id": "lzssEncoderDecoder",
+    "type": "Project",
+    "name": "LZSS Encoder Decoder",
+    "description": "This assignment involved implementing an encoder and decoder for the Lempel-Ziv-Storer-Szymanski (LZSS) variation of the LZ77 algorithm.",
+    "year": 2019,
+    "grade": 69
+  },
+  {
+    "id": "magicSquareChecker",
+    "type": "Project",
+    "name": "Magic Square Checker",
+    "description": "Given a square of numbers, calculates whether the square satisfies the properties to be a 'magic square'. This was my first ever asssignment, but probably has more nested if statements than any other.",
+    "year": 2016,
+    "grade": 86,
+    "image": "https://i.imgur.com/xrCoGA2.png"
+  },
+  {
+    "id": "mapTransformer",
+    "type": "Project",
+    "name": "Map Transformer",
+    "description": "The outcome of this assignment is an interactive world map displaying continental outlines. The user can adjust the map projection (which triggers an animation), and the coordinate under the current cursor position is displayed.",
+    "year": 2018,
+    "grade": 95
+  },
+  {
+    "id": "matrixDeterminant",
+    "type": "Project",
+    "name": "Matrix Determinant",
+    "description": "The outcome of this assignment was to write a Python program to compute the determinant of a given square matrix. The program accepts an N x N matrix as a comma separated file, checks if the matrix is square, and if yes: computes the matrix determinant using the permutation method, and outputs the determinant as the answer.",
+    "year": 2016,
+    "grade": 38
+  },
+  {
+    "id": "mazeSolver",
+    "type": "Project",
+    "name": "Maze Solver",
+    "description": "Solves mazes by viewing them as undirected, unweighted graphs, and then seeking the shortest path from the Entry to the Exit cell.",
+    "year": 2017,
+    "grade": 71,
+    "image": "https://i.imgur.com/V5LCTjn.png"
+  },
+  {
+    "id": "monsterEvolution",
+    "type": "Project",
+    "name": "Monster Evolution",
+    "description": "This assignment involved creating a text game in C++ with the description:\n\nYou have woken up in a strange dungeon. It is full of weird monsters that you are able to catch and look after! You will wander the dungeon, finding monsters and evolving them into more powerful and special versions of themselves. Can you evolve a monster that you can fight against the evil boss that guards the exit of the dungeon?",
+    "year": 2016,
+    "grade": 87
+  },
+  {
+    "id": "odiFileToTableETLBuilder",
+    "type": "Project",
+    "name": "ODI File to Table ETL Builder",
+    "description": "This task involved writing a script that automatically created SQL schemas and the Oracle Data Integrator (ODI) workflows to populate them by reading a simple CSV configuration file.",
+    "year": 2018
+  },
+  {
+    "id": "pascalsTriangle",
+    "type": "Project",
+    "name": "Pascal's Triangle",
+    "description": "A recursive program that takes as input a non-negative integer n and prints out the first n + 1 rows of Pascal’s triangle.",
+    "year": 2016,
+    "grade": 92,
+    "image": "https://i.imgur.com/pI3OuqZ.png"
+  },
+  {
+    "id": "paymentsDigitalBankService",
+    "type": "Project",
+    "name": "Payments Digital Banking Service",
+    "description": "Using Go, we are building a cloud-based backend payment service which forwards single and scheduled payment requests to the on-premises payment systems at ANZ.",
+    "year": 2020
+  },
+  {
+    "id": "phuzzle",
+    "type": "Project",
+    "name": "Phuzzle",
+    "description": "A multiplayer coop puzzle game that involves placing phones together to match a pattern.",
+    "year": 2020,
+    "code": "https://github.com/smartshark27/phuzzle",
+    "website": "https://smartshark27.github.io/phuzzle/",
+    "image": "https://i.imgur.com/YFyyGcx.png"
+  },
+  {
+    "id": "pinRecoveryFaceVerificationAPI",
+    "type": "Project",
+    "name": "Pin Recovery Face Verification API",
+    "description": "Endpoints for mobile apps to capture an interactive selfie and verify before allowing user to reset their pin.",
+    "year": 2021
+  },
+  {
+    "id": "powershellDowngradeAttackDetection",
+    "type": "Project",
+    "name": "Powershell Downgrade Attack Detection",
+    "description": "A Scala script which finds cases of when a computer runs an older (insecure) version of PowerShell. This algorithm is run against all monitored ANZ computers everyday.",
+    "year": 2019
+  },
+  {
+    "id": "primeFactors",
+    "type": "Project",
+    "name": "Prime Factors",
+    "description": "A Python program which factorizes the number after the 100 prime numbers less than a given N.",
+    "year": 2018,
+    "image": "https://i.imgur.com/I6LjYPh.png"
+  },
+  {
+    "id": "processScheduleMethods",
+    "type": "Project",
+    "name": "Process Schedule Methods",
+    "description": "The aim of this assignment was to implement and simulate the performance of three different schedule algorithms. The algorithms were First-Come-First-Served, Round Robin and Shortest Remaining Time.",
+    "year": 2017
+  },
+  {
+    "id": "snakey",
+    "type": "Project",
+    "name": "Snakey",
+    "description": "Classic snake game made using nothing but SVG elements and JavaScript.",
+    "year": 2020,
+    "code": "https://github.com/smartshark27/snakey",
+    "website": "https://smartshark27.github.io/snakey/",
+    "image": "https://i.imgur.com/938Wj9a.png"
+  },
+  {
+    "id": "speedGrocer",
+    "type": "Project",
+    "name": "Speed Grocer",
+    "description": "A simple grocery list app. I had ideas for it, but never got around to making the app any more useful than Google Keep already is.",
+    "year": 2018,
+    "image": "https://i.imgur.com/p61GhMr.jpg"
+  },
+  {
+    "id": "starWars",
+    "type": "Project",
+    "name": "Star Wars",
+    "description": "A text-based 'roguelike' game set in the Star Wars universe. As it stood, the game functioned but was missing a lot of desired functionality. Over the course of the project, working with a partner, we incrementally added new features to the game.",
+    "year": 2017,
+    "grade": 75
+  },
+  {
+    "id": "technologyBusinessArchitectureDashboard",
+    "type": "Project",
+    "name": "Technology Business Architecture Dashboard",
+    "description": "A dashboard to show the business functions and technology architecture of ANZ's transformation. The idea was to replace a gigantic spreadsheet with something cool and interactive. Each business and technology would have a description and optionally some metrics. Sadly, the project was sort of abandoned, but I learnt a lot of cool things, and it inspired the creation of this website.",
+    "year": 2019
+  },
+  {
+    "id": "threatIndicatorDetection",
+    "type": "Project",
+    "name": "Threat Indicator Detection",
+    "description": "A Spark program written in Scala which matched threat data against internal systems at ANZ. This was run everyday and uncovered a few threats. When it was built, it just matched dangerous URLs, but it was going to be expanded to search for dangerous emails and attachments.",
+    "year": 2019
+  },
+  {
+    "id": "timeSpentAwayFromDeskDashboard",
+    "type": "Project",
+    "name": "Time Spent Away from Desk Dashboard",
+    "description": "This was a dashboard built using PowerBI and data I had manually logged to show how much time I had spent at my desk, and how much time I had spent doing other things throughout the length of my IBL placement at Monash eSolutions.",
+    "year": 2018,
+    "image": "https://i.imgur.com/Y6lJrVl.png"
+  },
+  {
+    "id": "totalWar",
+    "type": "Project",
+    "name": "Total War",
+    "description": "The aim of this assignment was to implement a computer-based variant of the card game War. This is a two-player card game played with a standard deck of cards in which the aim of the game is to capture all cards in the deck. When one player has all 52 cards, the game is over.",
+    "year": 2016,
+    "grade": 90
+  },
+  {
+    "id": "twitterSentimentAnalyser",
+    "type": "Project",
+    "name": "Twitter Sentiment Analyser",
+    "description": "A simple Python program which applied a sentiment analyser library to Twitter data searched using a given search string. I later used a Node.js variant in my ASX Data Analysis project.",
+    "year": 2019
+  },
+  {
+    "id": "waxLyricalWebsite",
+    "type": "Project",
+    "name": "Wax Lyrical Website",
+    "description": "For an assignment, I had to make a website for a band. Fortunately, my friend was in a band called Wax Lyrical for some reason. Using an open-source template, I applied the band's artwork and information to the page and used some basic JavaScript functionality.",
+    "year": 2017,
+    "grade": 80,
+    "image": "https://i.imgur.com/xv0xt4C.png"
+  },
+  {
+    "id": "wirelessSensorNetwork",
+    "type": "Project",
+    "name": "Wireless Sensor Network",
+    "description": "This assignment required using the MPI C libraries to simulate the operation of a wireless sensor network. It had to send the least amount of messages as possible to the other nodes",
+    "year": 2018,
+    "grade": 76
+  },
+  {
+    "id": "wordGraph",
+    "type": "Project",
+    "name": "Word Graph",
+    "description": "This assignment was to write a Python program that built a special graph from a dictionary of English words. Given a list of 5 letter workds, it would build a graph where every word was a node. It would create edges between words that could be transformed into each other by editing one letter.",
+    "year": 2017,
+    "grade": 71
+  },
+  {
+    "id": "workflowEngineExploration",
+    "type": "Project",
+    "name": "Workflow Engine Exploration",
+    "description": "The task of finding and testing out a few workflow engines for ANZ. For the record, the one that looked the best was Uber Cadence.",
+    "year": 2019
+  }
 ]
