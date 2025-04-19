@@ -96,6 +96,26 @@
     "target": "c"
   },
   {
+    "source": "connectIDAuthorisationFlow",
+    "target": "forgeRockAccessManager"
+  },
+  {
+    "source": "connectIDAuthorisationFlow",
+    "target": "go"
+  },
+  {
+    "source": "connectIDAuthorisationFlow",
+    "target": "oAuth"
+  },
+  {
+    "source": "connectIDAuthorisationFlow",
+    "target": "openID"
+  },
+  {
+    "source": "connectIDAuthorisationFlow",
+    "target": "plantUML"
+  },
+  {
     "source": "cube",
     "target": "javaScript"
   },
@@ -462,6 +482,42 @@
   {
     "source": "monsterEvolution",
     "target": "visualStudio"
+  },
+  {
+    "source": "oAuth2ClientService",
+    "target": "cloudRun"
+  },
+  {
+    "source": "oAuth2ClientService",
+    "target": "docker"
+  },
+  {
+    "source": "oAuth2ClientService",
+    "target": "forgeRockAccessManager"
+  },
+  {
+    "source": "oAuth2ClientService",
+    "target": "forgeRockDirectoryServices"
+  },
+  {
+    "source": "oAuth2ClientService",
+    "target": "github"
+  },
+  {
+    "source": "oAuth2ClientService",
+    "target": "go"
+  },
+  {
+    "source": "oAuth2ClientService",
+    "target": "mermaid"
+  },
+  {
+    "source": "oAuth2ClientService",
+    "target": "oAuth"
+  },
+  {
+    "source": "oAuth2ClientService",
+    "target": "openID"
   },
   {
     "source": "odiFileToTableETLBuilder",

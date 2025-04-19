@@ -56,6 +56,13 @@
     "grade": 85
   },
   {
+    "id": "connectIDAuthorisationFlow",
+    "type": "Project",
+    "name": "ConnectID Authorisation Flow",
+    "description": "Worked with a team to implement the Authorization Code Flow with Proof Key for Code Exchange (PKCE) so that ANZ Plus could be used by ConnectID for identity verification. This may have been the hardest task I've ever worked on, since it required configuring PingAM to adhere to multiple standards set by OpenID and ConnectID. We ran into lots of hurdles using out of the box PingAM features, requiring us to write a lot of custom logic in PingAM and also in external microservices.",
+    "year": 2023
+  },
+  {
     "id": "cube",
     "type": "Project",
     "name": "Cube",
@@ -226,6 +233,13 @@
     "description": "This assignment involved creating a text game in C++ with the description:\n\nYou have woken up in a strange dungeon. It is full of weird monsters that you are able to catch and look after! You will wander the dungeon, finding monsters and evolving them into more powerful and special versions of themselves. Can you evolve a monster that you can fight against the evil boss that guards the exit of the dungeon?",
     "year": 2016,
     "grade": 87
+  },
+  {
+    "id": "oAuth2ClientService",
+    "type": "Project",
+    "name": "OAuth2 Client Service",
+    "description": "A Go Cloud Run service that exposes an API to create, update and delete OAuth2 clients in PingAM. PingAM already exposes an API for basic dynamic client registration, but it doesn't allow creation of the client IDs and other advanced properties. This service acts as a safe wrapper of the admin client management APIs and implements JWT auth.",
+    "year": 2023
   },
   {
     "id": "odiFileToTableETLBuilder",

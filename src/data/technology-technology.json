@@ -144,6 +144,10 @@
     "target": "googleCloudPlatform"
   },
   {
+    "source": "cloudRun",
+    "target": "googleCloudPlatform"
+  },
+  {
     "source": "cloudSQL",
     "target": "googleCloudPlatform"
   },
@@ -228,12 +232,28 @@
     "target": "java"
   },
   {
+    "source": "forgeRockAccessManager",
+    "target": "oAuth"
+  },
+  {
+    "source": "forgeRockAccessManager",
+    "target": "openID"
+  },
+  {
     "source": "forgeRockDirectoryServices",
     "target": "java"
   },
   {
+    "source": "forgeRockDirectoryServices",
+    "target": "ldap"
+  },
+  {
     "source": "forgeRockIdentityGateway",
     "target": "java"
+  },
+  {
+    "source": "forgeRockIdentityGateway",
+    "target": "oAuth"
   },
   {
     "source": "forgeRockIdentityGateway",
