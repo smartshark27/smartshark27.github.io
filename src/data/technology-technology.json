@@ -180,6 +180,10 @@
     "target": "jira"
   },
   {
+    "source": "cSharp",
+    "target": "godot"
+  },
+  {
     "source": "css",
     "target": "googleChrome"
   },
@@ -250,6 +254,10 @@
   {
     "source": "forgeRockIdentityManager",
     "target": "java"
+  },
+  {
+    "source": "forgeRockIdentityManager",
+    "target": "javaScript"
   },
   {
     "source": "forgeRockIdentityManager",

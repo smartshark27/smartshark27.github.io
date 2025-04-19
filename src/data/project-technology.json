@@ -544,6 +544,30 @@
     "target": "github"
   },
   {
+    "source": "pingGatewayRouteGenerator",
+    "target": "bash"
+  },
+  {
+    "source": "pingGatewayRouteGenerator",
+    "target": "docker"
+  },
+  {
+    "source": "pingGatewayRouteGenerator",
+    "target": "forgeRockAccessManager"
+  },
+  {
+    "source": "pingGatewayRouteGenerator",
+    "target": "forgeRockIdentityGateway"
+  },
+  {
+    "source": "pingGatewayRouteGenerator",
+    "target": "pytest"
+  },
+  {
+    "source": "pingGatewayRouteGenerator",
+    "target": "python"
+  },
+  {
     "source": "pinRecoveryFaceVerificationAPI",
     "target": "bpmn"
   },
@@ -610,6 +634,14 @@
   {
     "source": "pinRecoveryFaceVerificationAPI",
     "target": "yarn"
+  },
+  {
+    "source": "pongInvaders",
+    "target": "godot"
+  },
+  {
+    "source": "pongInvaders",
+    "target": "procreate"
   },
   {
     "source": "powershellDowngradeAttackDetection",
@@ -736,6 +768,18 @@
     "target": "clouderaDataScienceWorkbench"
   },
   {
+    "source": "ticTacVsToe",
+    "target": "github"
+  },
+  {
+    "source": "ticTacVsToe",
+    "target": "godot"
+  },
+  {
+    "source": "ticTacVsToe",
+    "target": "procreate"
+  },
+  {
     "source": "timeSpentAwayFromDeskDashboard",
     "target": "microsoftExcel"
   },
@@ -822,5 +866,13 @@
   {
     "source": "workflowEngineExploration",
     "target": "cadence"
+  },
+  {
+    "source": "yugiohCardGameEngine",
+    "target": "jest"
+  },
+  {
+    "source": "yugiohCardGameEngine",
+    "target": "typeScript"
   }
 ]

@@ -261,11 +261,28 @@
     "image": "https://i.imgur.com/YFyyGcx.png"
   },
   {
+    "id": "pingGatewayRouteGenerator",
+    "type": "Project",
+    "name": "PingGateway Route Generator",
+    "description": "A system to generate PingGateway routes with policy enforcment context from simple configuration files. This is used by teams across ANZ to onboard and make updates to their routes on PingGateway. The script geneated the files during Docker build using a Python script that read JSON files. The JSON files were validated using a GitHub Actions workflow.",
+    "year": 2022
+  },
+  {
     "id": "pinRecoveryFaceVerificationAPI",
     "type": "Project",
     "name": "Pin Recovery Face Verification API",
     "description": "Endpoints for mobile apps to capture an interactive selfie and verify before allowing user to reset their pin.",
     "year": 2021
+  },
+  {
+    "id": "pongInvaders",
+    "type": "Project",
+    "name": "Pong Invaders",
+    "description": "A cross between Pong and Space Invaders.",
+    "year": 2024,
+    "code": "https://github.com/smartshark27/pong-invaders",
+    "website": "https://smartshark27.github.io/pong-invaders/",
+    "image": "https://i.imgur.com/WfApuP5.png"
   },
   {
     "id": "powershellDowngradeAttackDetection",
@@ -330,6 +347,16 @@
     "year": 2019
   },
   {
+    "id": "ticTacVsToe",
+    "type": "Project",
+    "name": "Tic Tac vs Toe",
+    "description": "My first Godot game. Just basic Tic Tac Toe except the markers are Tic Tacs and Toes.",
+    "year": 2024,
+    "code": "https://github.com/smartshark27/tic-tac-vs-toe",
+    "website": "https://smartshark27.github.io/tic-tac-vs-toe/",
+    "image": "https://i.imgur.com/CDitdRW.png"
+  },
+  {
     "id": "timeSpentAwayFromDeskDashboard",
     "type": "Project",
     "name": "Time Spent Away from Desk Dashboard",
@@ -383,5 +410,13 @@
     "name": "Workflow Engine Exploration",
     "description": "The task of finding and testing out a few workflow engines for ANZ. For the record, the one that looked the best was Uber Cadence.",
     "year": 2019
+  },
+  {
+    "id": "yugiohCardGameEngine",
+    "type": "Project",
+    "name": "Yu-Gi-Oh Card Game Engine",
+    "description": "A card game engine for the popular trading card game Yu-Gi-Oh written in TypeScript.",
+    "year": 2022,
+    "code": "https://github.com/smartshark27/duel-monsters"
   }
 ]

@@ -18,7 +18,7 @@
     "type": "Technology",
     "name": "Adobe Illustrator",
     "description": "Vector graphics editor",
-    "skillLevel": 2
+    "skillLevel": 1
   },
   {
     "id": "adobePhotoshop",
@@ -254,30 +254,30 @@
   {
     "id": "forgeRockAccessManager",
     "type": "Technology",
-    "name": "ForgeRock Access Manager",
-    "description": "Access manager",
-    "skillLevel": 1
+    "name": "PingAM",
+    "description": "Access manager. Formerly ForgeRock Access Management.",
+    "skillLevel": 3
   },
   {
     "id": "forgeRockDirectoryServices",
     "type": "Technology",
-    "name": "ForgeRock Directory Services",
-    "description": "Identity data store",
-    "skillLevel": 1
+    "name": "PingDS",
+    "description": "Identity data store. Formerly ForgeRock Directory Services.",
+    "skillLevel": 2
   },
   {
     "id": "forgeRockIdentityGateway",
     "type": "Technology",
-    "name": "ForgeRock Identity Gateway",
-    "description": "API security gateway",
+    "name": "PingGateway",
+    "description": "Gateway that enforces security and access control in conjunction with PingAM. Formerly ForgeRock Identity Gateway.",
     "skillLevel": 3
   },
   {
     "id": "forgeRockIdentityManager",
     "type": "Technology",
-    "name": "ForgeRock Identity Manager",
-    "description": "Identity manager",
-    "skillLevel": 2
+    "name": "PingIDM",
+    "description": "Identity manager. Formerly ForgeRock Identity Management.",
+    "skillLevel": 3
   },
   {
     "id": "gRPC",
@@ -312,14 +312,21 @@
     "type": "Technology",
     "name": "Go",
     "description": "Programming language",
-    "skillLevel": 2
+    "skillLevel": 3
+  },
+  {
+    "id": "godot",
+    "type": "Technology",
+    "name": "Godot",
+    "description": "Game engine",
+    "skillLevel": 1
   },
   {
     "id": "googleChrome",
     "type": "Technology",
     "name": "Google Chrome",
     "description": "Web browser",
-    "skillLevel": 2
+    "skillLevel": 3
   },
   {
     "id": "googleCloudPlatform",
@@ -621,6 +628,13 @@
     "name": "processing",
     "description": "Graphical library",
     "skillLevel": 2
+  },
+  {
+    "id": "procreate",
+    "type": "Technology",
+    "name": "Procreate",
+    "description": "Raster graphics editor app for iPad",
+    "skillLevel": 1
   },
   {
     "id": "protocolBuffers",
