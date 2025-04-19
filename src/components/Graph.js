@@ -22,6 +22,7 @@ export default function Graph(props) {
 
 function nodeSize(node) {
   if (node.skillLevel != null) return node.skillLevel;
+  else if (node.size != null) return node.size * node.size;
   else return 3;
 }
 

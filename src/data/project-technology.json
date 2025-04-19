@@ -105,6 +105,10 @@
   },
   {
     "source": "connectIDAuthorisationFlow",
+    "target": "groovy"
+  },
+  {
+    "source": "connectIDAuthorisationFlow",
     "target": "oAuth"
   },
   {
