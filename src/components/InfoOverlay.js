@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, Container } from "@material-ui/core";
+import { Box, Container } from "@mui/material";
 const appearance = require("../appearance.json");
 
 const style = {

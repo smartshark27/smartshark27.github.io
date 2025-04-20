@@ -1,6 +1,6 @@
 import React from "react";
-import { IconButton, Box } from "@material-ui/core";
-import HomeIcon from "@material-ui/icons/Home";
+import { IconButton, Box } from "@mui/material";
+import HomeIcon from "@mui/icons-material/Home";
 
 const containerStyle = {
   position: "absolute",
@@ -21,7 +21,7 @@ const titleStyle = {
 export default function Header(props) {
   return (
     <Box display="flex" style={containerStyle}>
-      <IconButton style={homeButtonStyle} onClick={props.handleClick}>
+      <IconButton style={homeButtonStyle} onClick={props.handleClick} size="large">
         <HomeIcon />
       </IconButton>
       <Box fontWeight="fontWeightBold" style={titleStyle}>

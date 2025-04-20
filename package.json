@@ -4,13 +4,16 @@
   "private": true,
   "homepage": "https://smartshark27.github.io/",
   "dependencies": {
-    "@material-ui/core": "^4.9.12",
-    "@material-ui/icons": "^4.9.1",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/icons-material": "^7.0.2",
+    "@mui/material": "^7.0.2",
+    "@mui/styles": "^6.4.11",
+    "@tweenjs/tween.js": "^25.0.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
     "react-force-graph-2d": "^1.27.1",
-    "react-scripts": "^5.0.1",
-    "@tweenjs/tween.js": "^25.0.0"
+    "react-scripts": "^5.0.1"
   },
   "scripts": {
     "start": "NODE_OPTIONS=--openssl-legacy-provider react-scripts start",
