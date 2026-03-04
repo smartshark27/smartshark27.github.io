@@ -488,6 +488,22 @@
     "target": "visualStudio"
   },
   {
+    "source": "movieRatingChecker",
+    "target": "githubCopilot"
+  },
+  {
+    "source": "movieRatingChecker",
+    "target": "googleChrome"
+  },
+  {
+    "source": "movieRatingChecker",
+    "target": "html"
+  },
+  {
+    "source": "movieRatingChecker",
+    "target": "python"
+  },
+  {
     "source": "oAuth2ClientService",
     "target": "cloudRun"
   },
@@ -521,6 +537,42 @@
   },
   {
     "source": "oAuth2ClientService",
+    "target": "openID"
+  },
+  {
+    "source": "oAuth2ClientJob",
+    "target": "claudeCode"
+  },
+  {
+    "source": "oAuth2ClientJob",
+    "target": "cloudRun"
+  },
+  {
+    "source": "oAuth2ClientJob",
+    "target": "docker"
+  },
+  {
+    "source": "oAuth2ClientJob",
+    "target": "forgeRockAccessManager"
+  },
+  {
+    "source": "oAuth2ClientJob",
+    "target": "github"
+  },
+  {
+    "source": "oAuth2ClientJob",
+    "target": "go"
+  },
+  {
+    "source": "oAuth2ClientJob",
+    "target": "mermaid"
+  },
+  {
+    "source": "oAuth2ClientJob",
+    "target": "oAuth"
+  },
+  {
+    "source": "oAuth2ClientJob",
     "target": "openID"
   },
   {
@@ -846,6 +898,26 @@
   {
     "source": "timeSpentAwayFromDeskDashboard",
     "target": "microsoftPowerBI"
+  },
+  {
+    "source": "tomflixMediaServer",
+    "target": "commandPrompt"
+  },
+  {
+    "source": "tomflixMediaServer",
+    "target": "docker"
+  },
+  {
+    "source": "tomflixMediaServer",
+    "target": "jellyfin"
+  },
+  {
+    "source": "tomflixMediaServer",
+    "target": "microsoftWindows"
+  },
+  {
+    "source": "tomflixMediaServer",
+    "target": "tailscale"
   },
   {
     "source": "totalWar",

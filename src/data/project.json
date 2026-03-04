@@ -264,11 +264,29 @@
     "grade": 87
   },
   {
+    "id": "movieRatingChecker",
+    "type": "Project",
+    "name": "Movie Rating Checker",
+    "description": "A Python CLI that scrapes latest content added to 10Play, ABC iView, SBS On Demand and Tubi, looks up the content on TMDB, and checks if the content is above a specified rating threshold.",
+    "year": 2025,
+    "size": 2,
+    "code": "https://github.com/smartshark27/movie-rating-checker",
+    "image": "https://i.imgur.com/hXLytrb.png"
+  },
+  {
     "id": "oAuth2ClientService",
     "type": "Project",
     "name": "OAuth2 Client Service",
     "description": "A Go Cloud Run service that exposes an API to create, update and delete OAuth2 clients in PingAM. PingAM already exposes an API for basic dynamic client registration, but it doesn't allow creation of the client IDs and other advanced properties. This service acts as a safe wrapper of the admin client management APIs and implements JWT auth.",
     "year": 2023,
+    "size": 3
+  },
+  {
+    "id": "oAuth2ClientJob",
+    "type": "Project",
+    "name": "OAuth2 Client Job",
+    "description": "A Go Cloud Run job that can be run to create, update and delete OAuth2 clients in PingAM from simple JSON configuration files managed on GitHub. The config is simpler than the normal PingAM config and is designed to be used by teams across ANZ to manage their own clients without needing to understand the complexities of PingAM. The job is run on a frequent schedule by GitHub Actions so that the client config can be quickly applied to higher environments when changes are made without having to wait for slow, bulky PingAM deployments. It also made it far easier for clients to use private key JWTs instead of client secrets for auth which is better for security. The bulk of the task was done by Claude Code, which read a clear Markdown document with sequence diagrams that I wrote to explain the desired functionality.",
+    "year": 2026,
     "size": 3
   },
   {
@@ -424,6 +442,15 @@
     "year": 2018,
     "size": 1,
     "image": "https://i.imgur.com/Y6lJrVl.png"
+  },
+  {
+    "id": "tomflixMediaServer",
+    "type": "Project",
+    "name": "Tomflix Media Server",
+    "description": "A media server for streaming my collection of movies and TV shows. With just a $200 mini Windows PC and a $200 5TB external hard drive, I was able to setup a permanent replacement for streaming owned movies, TV shows and music to avoid paying streaming subscriptions. The media server is Jellyfin and I set it up with Tailscale so that I can access it and other self-hosted services remotely. Other self-hosted services included MeTube for downloading videos from YouTube and Dispatcharr for streaming iPTV to Jellyfin.",
+    "year": 2025,
+    "size": 2,
+    "image": "https://i.imgur.com/Zca5Vsq.png"
   },
   {
     "id": "totalWar",
